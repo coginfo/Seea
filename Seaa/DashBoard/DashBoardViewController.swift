@@ -45,5 +45,10 @@ extension DashBoardViewController: NavButtonActionDelegate {
     }
     
     
-    
+    func showSEAlertViewController() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let initial = storyboard.instantiateViewController(withIdentifier: "SEAlertViewController") as! SEAlertViewController
+        initial.setAlertMessage(message: "Task Completed", imageType: .Completed)
+        self.navigationController?.pushViewController(initial, animated: true)
+    }
 }
