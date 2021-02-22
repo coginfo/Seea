@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		787573D888521D510553B9B6 /* Pods_Seaa_SeaaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F022910BCCC210067F6337B8 /* Pods_Seaa_SeaaUITests.framework */; };
+		8251A5AD94709ACBCFFEB4CE /* Pods_Seaa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8917EDE80C8F5F7AD4EAB043 /* Pods_Seaa.framework */; };
+		B68DBAAFCF94658374A307F8 /* Pods_SeaaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71F1EEA35A84525FA7370A9 /* Pods_SeaaTests.framework */; };
+		CE076D6B25DD22F3001B6392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076D6A25DD22F3001B6392 /* AppDelegate.swift */; };
+		CE076D6D25DD22F3001B6392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076D6C25DD22F3001B6392 /* SceneDelegate.swift */; };
+		CE076D6F25DD22F3001B6392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076D6E25DD22F3001B6392 /* ViewController.swift */; };
+		CE076D7225DD22F3001B6392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE076D7025DD22F3001B6392 /* Main.storyboard */; };
+		CE076D7525DD22F3001B6392 /* Seaa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE076D7325DD22F3001B6392 /* Seaa.xcdatamodeld */; };
+		CE076D7725DD22F6001B6392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE076D7625DD22F6001B6392 /* Assets.xcassets */; };
+		CE076D7A25DD22F6001B6392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE076D7825DD22F6001B6392 /* LaunchScreen.storyboard */; };
+		CE076D8525DD22F6001B6392 /* SeaaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076D8425DD22F6001B6392 /* SeaaTests.swift */; };
+		CE076D9025DD22F6001B6392 /* SeaaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076D8F25DD22F6001B6392 /* SeaaUITests.swift */; };
+		CE076D9E25DD2BA6001B6392 /* SETabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076D9D25DD2BA6001B6392 /* SETabbarViewController.swift */; };
+		CE076DA125DD368C001B6392 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DA025DD368C001B6392 /* DashBoardViewController.swift */; };
+		CE076DC525DD5380001B6392 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DA425DD537F001B6392 /* Montserrat-LightItalic.ttf */; };
+		CE076DC625DD5380001B6392 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DA525DD537F001B6392 /* OpenSans-SemiBold.ttf */; };
+		CE076DC725DD5380001B6392 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DA625DD537F001B6392 /* Montserrat-Medium.ttf */; };
+		CE076DC825DD5380001B6392 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DA725DD537F001B6392 /* Montserrat-BoldItalic.ttf */; };
+		CE076DC925DD5380001B6392 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DA825DD537F001B6392 /* Montserrat-Light.ttf */; };
+		CE076DCA25DD5380001B6392 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DA925DD537F001B6392 /* Montserrat-ThinItalic.ttf */; };
+		CE076DCB25DD5380001B6392 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DAA25DD537F001B6392 /* Montserrat-ExtraLight.ttf */; };
+		CE076DCC25DD5380001B6392 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DAB25DD537F001B6392 /* Montserrat-Thin.ttf */; };
+		CE076DCD25DD5380001B6392 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DAC25DD537F001B6392 /* OpenSans-Light.ttf */; };
+		CE076DCE25DD5380001B6392 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DAD25DD537F001B6392 /* Montserrat-Bold.ttf */; };
+		CE076DCF25DD5380001B6392 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DAE25DD537F001B6392 /* Montserrat-MediumItalic.ttf */; };
+		CE076DD025DD5380001B6392 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DAF25DD537F001B6392 /* OpenSans-Italic.ttf */; };
+		CE076DD125DD5380001B6392 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DB025DD537F001B6392 /* Montserrat-BlackItalic.ttf */; };
+		CE076DD225DD5380001B6392 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DB125DD537F001B6392 /* OpenSans-ExtraBold.ttf */; };
+		CE076DD325DD5380001B6392 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DB225DD537F001B6392 /* Montserrat-SemiBold.ttf */; };
+		CE076DD425DD5380001B6392 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DB325DD537F001B6392 /* OpenSans-LightItalic.ttf */; };
+		CE076DD525DD5380001B6392 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DB425DD537F001B6392 /* Montserrat-ExtraLightItalic.ttf */; };
+		CE076DD625DD5380001B6392 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DB525DD537F001B6392 /* Montserrat-ExtraBold.ttf */; };
+		CE076DD725DD5380001B6392 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DB625DD537F001B6392 /* OpenSans-Bold.ttf */; };
+		CE076DD825DD5380001B6392 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DB725DD537F001B6392 /* Montserrat-Black.ttf */; };
+		CE076DD925DD5380001B6392 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DB825DD537F001B6392 /* OpenSans-SemiBoldItalic.ttf */; };
+		CE076DDA25DD5380001B6392 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DB925DD537F001B6392 /* Montserrat-Regular.ttf */; };
+		CE076DDB25DD5380001B6392 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DBA25DD537F001B6392 /* Montserrat-Italic.ttf */; };
+		CE076DDC25DD5380001B6392 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DBB25DD5380001B6392 /* OpenSans-ExtraBoldItalic.ttf */; };
+		CE076DDD25DD5380001B6392 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DBD25DD5380001B6392 /* SF-Pro-Text-Regular.otf */; };
+		CE076DDE25DD5380001B6392 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DBE25DD5380001B6392 /* SF-Pro-Text-Bold.otf */; };
+		CE076DDF25DD5380001B6392 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DBF25DD5380001B6392 /* SF-Pro-Text-Semibold.otf */; };
+		CE076DE025DD5380001B6392 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DC025DD5380001B6392 /* SF-Pro-Text-Medium.otf */; };
+		CE076DE125DD5380001B6392 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DC125DD5380001B6392 /* OpenSans-Regular.ttf */; };
+		CE076DE225DD5380001B6392 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DC225DD5380001B6392 /* OpenSans-BoldItalic.ttf */; };
+		CE076DE325DD5380001B6392 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DC325DD5380001B6392 /* Montserrat-SemiBoldItalic.ttf */; };
+		CE076DE425DD5380001B6392 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE076DC425DD5380001B6392 /* Montserrat-ExtraBoldItalic.ttf */; };
+		CE076DEE25DD53AB001B6392 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DE625DD53AB001B6392 /* Session.swift */; };
+		CE076DEF25DD53AB001B6392 /* HttpMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DE725DD53AB001B6392 /* HttpMacro.swift */; };
+		CE076DF025DD53AB001B6392 /* AppComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DE825DD53AB001B6392 /* AppComponents.swift */; };
+		CE076DF125DD53AB001B6392 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DE925DD53AB001B6392 /* Reachability.swift */; };
+		CE076DF225DD53AB001B6392 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DEA25DD53AB001B6392 /* AppConstant.swift */; };
+		CE076DF325DD53AB001B6392 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DEB25DD53AB001B6392 /* AppColor.swift */; };
+		CE076DF425DD53AB001B6392 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DEC25DD53AB001B6392 /* Helper.swift */; };
+		CE076DF525DD53AB001B6392 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DED25DD53AB001B6392 /* HttpManager.swift */; };
+		CE076DFD25DD58BF001B6392 /* SELayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DFC25DD58BF001B6392 /* SELayerViewController.swift */; };
+		CE076DFF25DD58F5001B6392 /* SEAddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076DFE25DD58F5001B6392 /* SEAddEventViewController.swift */; };
+		CE076E0125DD5935001B6392 /* SEProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0025DD5935001B6392 /* SEProfileViewController.swift */; };
+		CE076E0325DD596E001B6392 /* SEFolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0225DD596E001B6392 /* SEFolderViewController.swift */; };
+		CE076E0725DD6F2E001B6392 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0525DD6F2E001B6392 /* NavigationBar.swift */; };
+		CE076E0825DD6F2E001B6392 /* NavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE076E0625DD6F2E001B6392 /* NavigationBar.xib */; };
+		CE076E0A25DD6F3E001B6392 /* SEBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0925DD6F3E001B6392 /* SEBaseViewController.swift */; };
+		CE076E0C25DD7D5E001B6392 /* DasBoardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0B25DD7D5E001B6392 /* DasBoardDetailsViewController.swift */; };
+		CE076E0E25DD8570001B6392 /* SEChildBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0D25DD8570001B6392 /* SEChildBaseViewController.swift */; };
+		CE3243C225DE32260021BFD0 /* SESlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */; };
+		CE354C8C25DE9AF60040E9DE /* SEAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE076D8125DD22F6001B6392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE076D5F25DD22F3001B6392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE076D6625DD22F3001B6392;
+			remoteInfo = Seaa;
+		};
+		CE076D8C25DD22F6001B6392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE076D5F25DD22F3001B6392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE076D6625DD22F3001B6392;
+			remoteInfo = Seaa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E0E150B873D1EF05B710A7 /* Pods-Seaa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seaa.debug.xcconfig"; path = "Target Support Files/Pods-Seaa/Pods-Seaa.debug.xcconfig"; sourceTree = "<group>"; };
+		486D0EC303676A78518A3066 /* Pods-Seaa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seaa.release.xcconfig"; path = "Target Support Files/Pods-Seaa/Pods-Seaa.release.xcconfig"; sourceTree = "<group>"; };
+		8917EDE80C8F5F7AD4EAB043 /* Pods_Seaa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seaa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E77376A248CB71D3316AF8C /* Pods-SeaaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaaTests.release.xcconfig"; path = "Target Support Files/Pods-SeaaTests/Pods-SeaaTests.release.xcconfig"; sourceTree = "<group>"; };
+		A71F1EEA35A84525FA7370A9 /* Pods_SeaaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeaaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A16584018706D184856316 /* Pods-Seaa-SeaaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seaa-SeaaUITests.release.xcconfig"; path = "Target Support Files/Pods-Seaa-SeaaUITests/Pods-Seaa-SeaaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE076D6725DD22F3001B6392 /* Seaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE076D6A25DD22F3001B6392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE076D6C25DD22F3001B6392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE076D6E25DD22F3001B6392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE076D7125DD22F3001B6392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE076D7425DD22F3001B6392 /* Seaa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seaa.xcdatamodel; sourceTree = "<group>"; };
+		CE076D7625DD22F6001B6392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE076D7925DD22F6001B6392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE076D7B25DD22F6001B6392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE076D8025DD22F6001B6392 /* SeaaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE076D8425DD22F6001B6392 /* SeaaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaaTests.swift; sourceTree = "<group>"; };
+		CE076D8625DD22F6001B6392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE076D8B25DD22F6001B6392 /* SeaaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE076D8F25DD22F6001B6392 /* SeaaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaaUITests.swift; sourceTree = "<group>"; };
+		CE076D9125DD22F6001B6392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE076D9D25DD2BA6001B6392 /* SETabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SETabbarViewController.swift; sourceTree = "<group>"; };
+		CE076DA025DD368C001B6392 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		CE076DA425DD537F001B6392 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE076DA525DD537F001B6392 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE076DA625DD537F001B6392 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		CE076DA725DD537F001B6392 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE076DA825DD537F001B6392 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		CE076DA925DD537F001B6392 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CE076DAA25DD537F001B6392 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CE076DAB25DD537F001B6392 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		CE076DAC25DD537F001B6392 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		CE076DAD25DD537F001B6392 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		CE076DAE25DD537F001B6392 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CE076DAF25DD537F001B6392 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		CE076DB025DD537F001B6392 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CE076DB125DD537F001B6392 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CE076DB225DD537F001B6392 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE076DB325DD537F001B6392 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE076DB425DD537F001B6392 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CE076DB525DD537F001B6392 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CE076DB625DD537F001B6392 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		CE076DB725DD537F001B6392 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		CE076DB825DD537F001B6392 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE076DB925DD537F001B6392 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		CE076DBA25DD537F001B6392 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		CE076DBB25DD5380001B6392 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE076DBD25DD5380001B6392 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		CE076DBE25DD5380001B6392 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		CE076DBF25DD5380001B6392 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		CE076DC025DD5380001B6392 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		CE076DC125DD5380001B6392 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		CE076DC225DD5380001B6392 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE076DC325DD5380001B6392 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE076DC425DD5380001B6392 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE076DE625DD53AB001B6392 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		CE076DE725DD53AB001B6392 /* HttpMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMacro.swift; sourceTree = "<group>"; };
+		CE076DE825DD53AB001B6392 /* AppComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppComponents.swift; sourceTree = "<group>"; };
+		CE076DE925DD53AB001B6392 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		CE076DEA25DD53AB001B6392 /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		CE076DEB25DD53AB001B6392 /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		CE076DEC25DD53AB001B6392 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CE076DED25DD53AB001B6392 /* HttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
+		CE076DFC25DD58BF001B6392 /* SELayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SELayerViewController.swift; sourceTree = "<group>"; };
+		CE076DFE25DD58F5001B6392 /* SEAddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAddEventViewController.swift; sourceTree = "<group>"; };
+		CE076E0025DD5935001B6392 /* SEProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEProfileViewController.swift; sourceTree = "<group>"; };
+		CE076E0225DD596E001B6392 /* SEFolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFolderViewController.swift; sourceTree = "<group>"; };
+		CE076E0525DD6F2E001B6392 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		CE076E0625DD6F2E001B6392 /* NavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBar.xib; sourceTree = "<group>"; };
+		CE076E0925DD6F3E001B6392 /* SEBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEBaseViewController.swift; sourceTree = "<group>"; };
+		CE076E0B25DD7D5E001B6392 /* DasBoardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasBoardDetailsViewController.swift; sourceTree = "<group>"; };
+		CE076E0D25DD8570001B6392 /* SEChildBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEChildBaseViewController.swift; sourceTree = "<group>"; };
+		CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SESlideMenuViewController.swift; sourceTree = "<group>"; };
+		CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAlertViewController.swift; sourceTree = "<group>"; };
+		DE9F8CA19C1D3E92D51EE850 /* Pods-SeaaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaaTests.debug.xcconfig"; path = "Target Support Files/Pods-SeaaTests/Pods-SeaaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F022910BCCC210067F6337B8 /* Pods_Seaa_SeaaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seaa_SeaaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6309917457B8C43D5FC0F0D /* Pods-Seaa-SeaaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seaa-SeaaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Seaa-SeaaUITests/Pods-Seaa-SeaaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE076D6425DD22F3001B6392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8251A5AD94709ACBCFFEB4CE /* Pods_Seaa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE076D7D25DD22F6001B6392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68DBAAFCF94658374A307F8 /* Pods_SeaaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE076D8825DD22F6001B6392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787573D888521D510553B9B6 /* Pods_Seaa_SeaaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADED4C7F18149CF87449BDF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8917EDE80C8F5F7AD4EAB043 /* Pods_Seaa.framework */,
+				F022910BCCC210067F6337B8 /* Pods_Seaa_SeaaUITests.framework */,
+				A71F1EEA35A84525FA7370A9 /* Pods_SeaaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0F822E52EB5D7D1F960A98A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18E0E150B873D1EF05B710A7 /* Pods-Seaa.debug.xcconfig */,
+				486D0EC303676A78518A3066 /* Pods-Seaa.release.xcconfig */,
+				F6309917457B8C43D5FC0F0D /* Pods-Seaa-SeaaUITests.debug.xcconfig */,
+				A8A16584018706D184856316 /* Pods-Seaa-SeaaUITests.release.xcconfig */,
+				DE9F8CA19C1D3E92D51EE850 /* Pods-SeaaTests.debug.xcconfig */,
+				8E77376A248CB71D3316AF8C /* Pods-SeaaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE076D5E25DD22F3001B6392 = {
+			isa = PBXGroup;
+			children = (
+				CE076D6925DD22F3001B6392 /* Seaa */,
+				CE076D8325DD22F6001B6392 /* SeaaTests */,
+				CE076D8E25DD22F6001B6392 /* SeaaUITests */,
+				CE076D6825DD22F3001B6392 /* Products */,
+				C0F822E52EB5D7D1F960A98A /* Pods */,
+				ADED4C7F18149CF87449BDF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE076D6825DD22F3001B6392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE076D6725DD22F3001B6392 /* Seaa.app */,
+				CE076D8025DD22F6001B6392 /* SeaaTests.xctest */,
+				CE076D8B25DD22F6001B6392 /* SeaaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE076D6925DD22F3001B6392 /* Seaa */ = {
+			isa = PBXGroup;
+			children = (
+				CE076D6A25DD22F3001B6392 /* AppDelegate.swift */,
+				CE076D6C25DD22F3001B6392 /* SceneDelegate.swift */,
+				CE076E0925DD6F3E001B6392 /* SEBaseViewController.swift */,
+				CE076E0D25DD8570001B6392 /* SEChildBaseViewController.swift */,
+				CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */,
+				CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */,
+				CE076E0425DD6F2E001B6392 /* navigation */,
+				CE076DFA25DD5821001B6392 /* Tabbar */,
+				CE076D9F25DD3672001B6392 /* DashBoard */,
+				CE076DF625DD57DB001B6392 /* Layer */,
+				CE076DF825DD57DB001B6392 /* Profile */,
+				CE076DF725DD57DB001B6392 /* Folder */,
+				CE076DF925DD57DC001B6392 /* AddEvent */,
+				CE076DFB25DD585C001B6392 /* StoryBoard */,
+				CE076DE525DD53AB001B6392 /* Helper */,
+				CE076DA225DD537F001B6392 /* AppTheme */,
+				CE076D6E25DD22F3001B6392 /* ViewController.swift */,
+				CE076D7625DD22F6001B6392 /* Assets.xcassets */,
+				CE076D7B25DD22F6001B6392 /* Info.plist */,
+				CE076D7325DD22F3001B6392 /* Seaa.xcdatamodeld */,
+			);
+			path = Seaa;
+			sourceTree = "<group>";
+		};
+		CE076D8325DD22F6001B6392 /* SeaaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE076D8425DD22F6001B6392 /* SeaaTests.swift */,
+				CE076D8625DD22F6001B6392 /* Info.plist */,
+			);
+			path = SeaaTests;
+			sourceTree = "<group>";
+		};
+		CE076D8E25DD22F6001B6392 /* SeaaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE076D8F25DD22F6001B6392 /* SeaaUITests.swift */,
+				CE076D9125DD22F6001B6392 /* Info.plist */,
+			);
+			path = SeaaUITests;
+			sourceTree = "<group>";
+		};
+		CE076D9F25DD3672001B6392 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CE076DA025DD368C001B6392 /* DashBoardViewController.swift */,
+				CE076E0B25DD7D5E001B6392 /* DasBoardDetailsViewController.swift */,
+			);
+			path = DashBoard;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE076DA225DD537F001B6392 /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				CE076DA325DD537F001B6392 /* Fonts */,
+			);
+			path = AppTheme;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE076DA325DD537F001B6392 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE076DA425DD537F001B6392 /* Montserrat-LightItalic.ttf */,
+				CE076DA525DD537F001B6392 /* OpenSans-SemiBold.ttf */,
+				CE076DA625DD537F001B6392 /* Montserrat-Medium.ttf */,
+				CE076DA725DD537F001B6392 /* Montserrat-BoldItalic.ttf */,
+				CE076DA825DD537F001B6392 /* Montserrat-Light.ttf */,
+				CE076DA925DD537F001B6392 /* Montserrat-ThinItalic.ttf */,
+				CE076DAA25DD537F001B6392 /* Montserrat-ExtraLight.ttf */,
+				CE076DAB25DD537F001B6392 /* Montserrat-Thin.ttf */,
+				CE076DAC25DD537F001B6392 /* OpenSans-Light.ttf */,
+				CE076DAD25DD537F001B6392 /* Montserrat-Bold.ttf */,
+				CE076DAE25DD537F001B6392 /* Montserrat-MediumItalic.ttf */,
+				CE076DAF25DD537F001B6392 /* OpenSans-Italic.ttf */,
+				CE076DB025DD537F001B6392 /* Montserrat-BlackItalic.ttf */,
+				CE076DB125DD537F001B6392 /* OpenSans-ExtraBold.ttf */,
+				CE076DB225DD537F001B6392 /* Montserrat-SemiBold.ttf */,
+				CE076DB325DD537F001B6392 /* OpenSans-LightItalic.ttf */,
+				CE076DB425DD537F001B6392 /* Montserrat-ExtraLightItalic.ttf */,
+				CE076DB525DD537F001B6392 /* Montserrat-ExtraBold.ttf */,
+				CE076DB625DD537F001B6392 /* OpenSans-Bold.ttf */,
+				CE076DB725DD537F001B6392 /* Montserrat-Black.ttf */,
+				CE076DB825DD537F001B6392 /* OpenSans-SemiBoldItalic.ttf */,
+				CE076DB925DD537F001B6392 /* Montserrat-Regular.ttf */,
+				CE076DBA25DD537F001B6392 /* Montserrat-Italic.ttf */,
+				CE076DBB25DD5380001B6392 /* OpenSans-ExtraBoldItalic.ttf */,
+				CE076DBC25DD5380001B6392 /* SF-Pro */,
+				CE076DC125DD5380001B6392 /* OpenSans-Regular.ttf */,
+				CE076DC225DD5380001B6392 /* OpenSans-BoldItalic.ttf */,
+				CE076DC325DD5380001B6392 /* Montserrat-SemiBoldItalic.ttf */,
+				CE076DC425DD5380001B6392 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE076DBC25DD5380001B6392 /* SF-Pro */ = {
+			isa = PBXGroup;
+			children = (
+				CE076DBD25DD5380001B6392 /* SF-Pro-Text-Regular.otf */,
+				CE076DBE25DD5380001B6392 /* SF-Pro-Text-Bold.otf */,
+				CE076DBF25DD5380001B6392 /* SF-Pro-Text-Semibold.otf */,
+				CE076DC025DD5380001B6392 /* SF-Pro-Text-Medium.otf */,
+			);
+			path = "SF-Pro";
+			sourceTree = "<group>";
+		};
+		CE076DE525DD53AB001B6392 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CE076DE625DD53AB001B6392 /* Session.swift */,
+				CE076DE725DD53AB001B6392 /* HttpMacro.swift */,
+				CE076DE825DD53AB001B6392 /* AppComponents.swift */,
+				CE076DE925DD53AB001B6392 /* Reachability.swift */,
+				CE076DEA25DD53AB001B6392 /* AppConstant.swift */,
+				CE076DEB25DD53AB001B6392 /* AppColor.swift */,
+				CE076DEC25DD53AB001B6392 /* Helper.swift */,
+				CE076DED25DD53AB001B6392 /* HttpManager.swift */,
+			);
+			path = Helper;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE076DF625DD57DB001B6392 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				CE076DFC25DD58BF001B6392 /* SELayerViewController.swift */,
+			);
+			path = Layer;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE076DF725DD57DB001B6392 /* Folder */ = {
+			isa = PBXGroup;
+			children = (
+				CE076E0225DD596E001B6392 /* SEFolderViewController.swift */,
+			);
+			path = Folder;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE076DF825DD57DB001B6392 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CE076E0025DD5935001B6392 /* SEProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE076DF925DD57DC001B6392 /* AddEvent */ = {
+			isa = PBXGroup;
+			children = (
+				CE076DFE25DD58F5001B6392 /* SEAddEventViewController.swift */,
+			);
+			name = AddEvent;
+			path = Seaa/AddEvent;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE076DFA25DD5821001B6392 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CE076D9D25DD2BA6001B6392 /* SETabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE076DFB25DD585C001B6392 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CE076D7825DD22F6001B6392 /* LaunchScreen.storyboard */,
+				CE076D7025DD22F3001B6392 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE076E0425DD6F2E001B6392 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CE076E0525DD6F2E001B6392 /* NavigationBar.swift */,
+				CE076E0625DD6F2E001B6392 /* NavigationBar.xib */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE076D6625DD22F3001B6392 /* Seaa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE076D9425DD22F6001B6392 /* Build configuration list for PBXNativeTarget "Seaa" */;
+			buildPhases = (
+				D4F92493E5B8633E6616A15D /* [CP] Check Pods Manifest.lock */,
+				CE076D6325DD22F3001B6392 /* Sources */,
+				CE076D6425DD22F3001B6392 /* Frameworks */,
+				CE076D6525DD22F3001B6392 /* Resources */,
+				062C4F74392947D06D4B80B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seaa;
+			productName = Seaa;
+			productReference = CE076D6725DD22F3001B6392 /* Seaa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE076D7F25DD22F6001B6392 /* SeaaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE076D9725DD22F6001B6392 /* Build configuration list for PBXNativeTarget "SeaaTests" */;
+			buildPhases = (
+				B65E5F23D6D07F43D98C3D19 /* [CP] Check Pods Manifest.lock */,
+				CE076D7C25DD22F6001B6392 /* Sources */,
+				CE076D7D25DD22F6001B6392 /* Frameworks */,
+				CE076D7E25DD22F6001B6392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE076D8225DD22F6001B6392 /* PBXTargetDependency */,
+			);
+			name = SeaaTests;
+			productName = SeaaTests;
+			productReference = CE076D8025DD22F6001B6392 /* SeaaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE076D8A25DD22F6001B6392 /* SeaaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE076D9A25DD22F6001B6392 /* Build configuration list for PBXNativeTarget "SeaaUITests" */;
+			buildPhases = (
+				C4E3F6D154844C675FA56A04 /* [CP] Check Pods Manifest.lock */,
+				CE076D8725DD22F6001B6392 /* Sources */,
+				CE076D8825DD22F6001B6392 /* Frameworks */,
+				CE076D8925DD22F6001B6392 /* Resources */,
+				3FA254FD757814EA24A40FF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE076D8D25DD22F6001B6392 /* PBXTargetDependency */,
+			);
+			name = SeaaUITests;
+			productName = SeaaUITests;
+			productReference = CE076D8B25DD22F6001B6392 /* SeaaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE076D5F25DD22F3001B6392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = CogInfo;
+				TargetAttributes = {
+					CE076D6625DD22F3001B6392 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					CE076D7F25DD22F6001B6392 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CE076D6625DD22F3001B6392;
+					};
+					CE076D8A25DD22F6001B6392 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CE076D6625DD22F3001B6392;
+					};
+				};
+			};
+			buildConfigurationList = CE076D6225DD22F3001B6392 /* Build configuration list for PBXProject "Seaa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE076D5E25DD22F3001B6392;
+			productRefGroup = CE076D6825DD22F3001B6392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE076D6625DD22F3001B6392 /* Seaa */,
+				CE076D7F25DD22F6001B6392 /* SeaaTests */,
+				CE076D8A25DD22F6001B6392 /* SeaaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE076D6525DD22F3001B6392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE076DD925DD5380001B6392 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				CE076DDC25DD5380001B6392 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				CE076DD725DD5380001B6392 /* OpenSans-Bold.ttf in Resources */,
+				CE076DE225DD5380001B6392 /* OpenSans-BoldItalic.ttf in Resources */,
+				CE076DC525DD5380001B6392 /* Montserrat-LightItalic.ttf in Resources */,
+				CE076DC825DD5380001B6392 /* Montserrat-BoldItalic.ttf in Resources */,
+				CE076DCF25DD5380001B6392 /* Montserrat-MediumItalic.ttf in Resources */,
+				CE076DDD25DD5380001B6392 /* SF-Pro-Text-Regular.otf in Resources */,
+				CE076DDE25DD5380001B6392 /* SF-Pro-Text-Bold.otf in Resources */,
+				CE076DD025DD5380001B6392 /* OpenSans-Italic.ttf in Resources */,
+				CE076D7A25DD22F6001B6392 /* LaunchScreen.storyboard in Resources */,
+				CE076DD125DD5380001B6392 /* Montserrat-BlackItalic.ttf in Resources */,
+				CE076DD325DD5380001B6392 /* Montserrat-SemiBold.ttf in Resources */,
+				CE076DDF25DD5380001B6392 /* SF-Pro-Text-Semibold.otf in Resources */,
+				CE076DE025DD5380001B6392 /* SF-Pro-Text-Medium.otf in Resources */,
+				CE076DC625DD5380001B6392 /* OpenSans-SemiBold.ttf in Resources */,
+				CE076DE325DD5380001B6392 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				CE076DCE25DD5380001B6392 /* Montserrat-Bold.ttf in Resources */,
+				CE076DDB25DD5380001B6392 /* Montserrat-Italic.ttf in Resources */,
+				CE076DD825DD5380001B6392 /* Montserrat-Black.ttf in Resources */,
+				CE076DC925DD5380001B6392 /* Montserrat-Light.ttf in Resources */,
+				CE076DDA25DD5380001B6392 /* Montserrat-Regular.ttf in Resources */,
+				CE076DCA25DD5380001B6392 /* Montserrat-ThinItalic.ttf in Resources */,
+				CE076DCD25DD5380001B6392 /* OpenSans-Light.ttf in Resources */,
+				CE076DE125DD5380001B6392 /* OpenSans-Regular.ttf in Resources */,
+				CE076D7725DD22F6001B6392 /* Assets.xcassets in Resources */,
+				CE076DCC25DD5380001B6392 /* Montserrat-Thin.ttf in Resources */,
+				CE076E0825DD6F2E001B6392 /* NavigationBar.xib in Resources */,
+				CE076DC725DD5380001B6392 /* Montserrat-Medium.ttf in Resources */,
+				CE076DD425DD5380001B6392 /* OpenSans-LightItalic.ttf in Resources */,
+				CE076D7225DD22F3001B6392 /* Main.storyboard in Resources */,
+				CE076DD525DD5380001B6392 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				CE076DD225DD5380001B6392 /* OpenSans-ExtraBold.ttf in Resources */,
+				CE076DE425DD5380001B6392 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				CE076DD625DD5380001B6392 /* Montserrat-ExtraBold.ttf in Resources */,
+				CE076DCB25DD5380001B6392 /* Montserrat-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE076D7E25DD22F6001B6392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE076D8925DD22F6001B6392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062C4F74392947D06D4B80B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seaa/Pods-Seaa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seaa/Pods-Seaa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Seaa/Pods-Seaa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FA254FD757814EA24A40FF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seaa-SeaaUITests/Pods-Seaa-SeaaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Seaa-SeaaUITests/Pods-Seaa-SeaaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Seaa-SeaaUITests/Pods-Seaa-SeaaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65E5F23D6D07F43D98C3D19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeaaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E3F6D154844C675FA56A04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Seaa-SeaaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F92493E5B8633E6616A15D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Seaa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE076D6325DD22F3001B6392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE076E0E25DD8570001B6392 /* SEChildBaseViewController.swift in Sources */,
+				CE076DEE25DD53AB001B6392 /* Session.swift in Sources */,
+				CE076DFF25DD58F5001B6392 /* SEAddEventViewController.swift in Sources */,
+				CE076DF525DD53AB001B6392 /* HttpManager.swift in Sources */,
+				CE076DF225DD53AB001B6392 /* AppConstant.swift in Sources */,
+				CE076D6F25DD22F3001B6392 /* ViewController.swift in Sources */,
+				CE076D6B25DD22F3001B6392 /* AppDelegate.swift in Sources */,
+				CE076D6D25DD22F3001B6392 /* SceneDelegate.swift in Sources */,
+				CE076E0A25DD6F3E001B6392 /* SEBaseViewController.swift in Sources */,
+				CE076DF325DD53AB001B6392 /* AppColor.swift in Sources */,
+				CE076E0325DD596E001B6392 /* SEFolderViewController.swift in Sources */,
+				CE076DEF25DD53AB001B6392 /* HttpMacro.swift in Sources */,
+				CE076DF025DD53AB001B6392 /* AppComponents.swift in Sources */,
+				CE3243C225DE32260021BFD0 /* SESlideMenuViewController.swift in Sources */,
+				CE076DA125DD368C001B6392 /* DashBoardViewController.swift in Sources */,
+				CE076E0C25DD7D5E001B6392 /* DasBoardDetailsViewController.swift in Sources */,
+				CE076D9E25DD2BA6001B6392 /* SETabbarViewController.swift in Sources */,
+				CE076DF425DD53AB001B6392 /* Helper.swift in Sources */,
+				CE076DFD25DD58BF001B6392 /* SELayerViewController.swift in Sources */,
+				CE076DF125DD53AB001B6392 /* Reachability.swift in Sources */,
+				CE076E0125DD5935001B6392 /* SEProfileViewController.swift in Sources */,
+				CE354C8C25DE9AF60040E9DE /* SEAlertViewController.swift in Sources */,
+				CE076D7525DD22F3001B6392 /* Seaa.xcdatamodeld in Sources */,
+				CE076E0725DD6F2E001B6392 /* NavigationBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE076D7C25DD22F6001B6392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE076D8525DD22F6001B6392 /* SeaaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE076D8725DD22F6001B6392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE076D9025DD22F6001B6392 /* SeaaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE076D8225DD22F6001B6392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE076D6625DD22F3001B6392 /* Seaa */;
+			targetProxy = CE076D8125DD22F6001B6392 /* PBXContainerItemProxy */;
+		};
+		CE076D8D25DD22F6001B6392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE076D6625DD22F3001B6392 /* Seaa */;
+			targetProxy = CE076D8C25DD22F6001B6392 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE076D7025DD22F3001B6392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE076D7125DD22F3001B6392 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE076D7825DD22F6001B6392 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE076D7925DD22F6001B6392 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE076D9225DD22F6001B6392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE076D9325DD22F6001B6392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE076D9525DD22F6001B6392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E0E150B873D1EF05B710A7 /* Pods-Seaa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FHQTKHZ4;
+				INFOPLIST_FILE = Seaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CogInfo.Seaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE076D9625DD22F6001B6392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486D0EC303676A78518A3066 /* Pods-Seaa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FHQTKHZ4;
+				INFOPLIST_FILE = Seaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CogInfo.Seaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE076D9825DD22F6001B6392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9F8CA19C1D3E92D51EE850 /* Pods-SeaaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FHQTKHZ4;
+				INFOPLIST_FILE = SeaaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CogInfo.SeaaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seaa.app/Seaa";
+			};
+			name = Debug;
+		};
+		CE076D9925DD22F6001B6392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E77376A248CB71D3316AF8C /* Pods-SeaaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FHQTKHZ4;
+				INFOPLIST_FILE = SeaaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CogInfo.SeaaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seaa.app/Seaa";
+			};
+			name = Release;
+		};
+		CE076D9B25DD22F6001B6392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6309917457B8C43D5FC0F0D /* Pods-Seaa-SeaaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FHQTKHZ4;
+				INFOPLIST_FILE = SeaaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CogInfo.SeaaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seaa;
+			};
+			name = Debug;
+		};
+		CE076D9C25DD22F6001B6392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A16584018706D184856316 /* Pods-Seaa-SeaaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FHQTKHZ4;
+				INFOPLIST_FILE = SeaaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CogInfo.SeaaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seaa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE076D6225DD22F3001B6392 /* Build configuration list for PBXProject "Seaa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE076D9225DD22F6001B6392 /* Debug */,
+				CE076D9325DD22F6001B6392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE076D9425DD22F6001B6392 /* Build configuration list for PBXNativeTarget "Seaa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE076D9525DD22F6001B6392 /* Debug */,
+				CE076D9625DD22F6001B6392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE076D9725DD22F6001B6392 /* Build configuration list for PBXNativeTarget "SeaaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE076D9825DD22F6001B6392 /* Debug */,
+				CE076D9925DD22F6001B6392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE076D9A25DD22F6001B6392 /* Build configuration list for PBXNativeTarget "SeaaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE076D9B25DD22F6001B6392 /* Debug */,
+				CE076D9C25DD22F6001B6392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE076D7325DD22F3001B6392 /* Seaa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE076D7425DD22F3001B6392 /* Seaa.xcdatamodel */,
+			);
+			currentVersion = CE076D7425DD22F3001B6392 /* Seaa.xcdatamodel */;
+			path = Seaa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE076D5F25DD22F3001B6392 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Seaa {
+  umbrella header "Pods-Seaa-umbrella.h"
+
+  export *
+  module * { export * }
+}

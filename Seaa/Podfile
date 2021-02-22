@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Seaa' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Seaa
+   pod 'ACFloatingTextfield-Swift', '~> 1.8'
+   pod 'Alamofire'
+   pod 'IQKeyboardManagerSwift'
+   pod 'SwiftyJSON'
+   pod 'TTGSnackbar'
+   pod 'Kingfisher'
+
+  target 'SeaaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SeaaUITests' do
+    # Pods for testing
+  end
+
+end

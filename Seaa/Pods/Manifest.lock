@@ -1,0 +1,38 @@
+PODS:
+  - ACFloatingTextfield-Swift (1.8)
+  - Alamofire (5.2.2)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (5.15.0):
+    - Kingfisher/Core (= 5.15.0)
+  - Kingfisher/Core (5.15.0)
+  - SwiftyJSON (5.0.0)
+  - TTGSnackbar (1.10.3)
+
+DEPENDENCIES:
+  - ACFloatingTextfield-Swift (~> 1.8)
+  - Alamofire
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - SwiftyJSON
+  - TTGSnackbar
+
+SPEC REPOS:
+  trunk:
+    - ACFloatingTextfield-Swift
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - SwiftyJSON
+    - TTGSnackbar
+
+SPEC CHECKSUMS:
+  ACFloatingTextfield-Swift: c3212cef9548ae58fa914ea1c26a2f9a4f7cd7df
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: 1acb67597a520c2d0310677e66d6e0af455ef757
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TTGSnackbar: 97c033600de8a9c8f4a093f25a08543a03946bcc
+
+PODFILE CHECKSUM: 152f5e1ccac1355667835c14320caa73100b3e55
+
+COCOAPODS: 1.9.3
