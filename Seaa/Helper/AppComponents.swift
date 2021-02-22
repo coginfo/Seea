@@ -68,7 +68,7 @@ public class AppHomeBtnCornerBackView: UIButton {
     }
 }
 
-public class APPMediumLable: UILabel {
+public class APPHeadingLabel: UILabel {
     
     override init(frame: CGRect){
         super.init(frame: frame)
@@ -80,8 +80,33 @@ public class APPMediumLable: UILabel {
     }
     
     private func commonSetup() {
-        //self.font = UIFont.setAppFontSemiBold(30)
-        self.textColor = UIColor.appThemeColor()
+        self.font = UIFont.setAppFontSemiBold(30)
+        self.textColor = UIColor.appHeadingTextColor()
         self.backgroundColor = UIColor.clear
+    }
+}
+
+
+// App Button Style
+public class BtnAppStyle: UIButton {
+    
+    override init(frame: CGRect){
+        super.init(frame: frame)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        commonSetup()
+    }
+    
+    private func commonSetup() {
+        //self.titleLabel?.font = UIFont.setAppFontSemiBold(12)
+        self.backgroundColor = UIColor.appThemeColor()
+        self.titleLabel?.textColor = UIColor.getAppLightBlackColor()
+        self.layer.cornerRadius = 10.0
+        self.layer.shadowColor = UIColor.gray.cgColor
+        self.layer.shadowOpacity = 0.5
+        self.layer.shadowRadius = 4
+        self.layer.shadowOffset = CGSize.init(width: 0, height: 5)
     }
 }

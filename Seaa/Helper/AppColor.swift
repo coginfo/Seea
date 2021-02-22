@@ -65,4 +65,7 @@ public extension UIColor {
         return UIColor(red: 42.0/255.0, green: 120.0/255.0, blue: 149.0/255.0, alpha: 1.0)
     }
     
+    class func appHeadingTextColor()->UIColor {
+        return UIColor.init(hexString: "#191f35")
+    }
 }

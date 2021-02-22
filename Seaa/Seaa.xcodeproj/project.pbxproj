@@ -75,6 +75,9 @@
 		CE2F7F3625E3FB000080C16F /* PoppinsSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F3125E3FB000080C16F /* PoppinsSemiBold.ttf */; };
 		CE2F7F3725E3FB000080C16F /* PoppinsLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F3225E3FB000080C16F /* PoppinsLight.ttf */; };
 		CE2F7F3825E3FB000080C16F /* PoppinsBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F3325E3FB000080C16F /* PoppinsBold.ttf */; };
+		CE2F7F3E25E4060D0080C16F /* SEFirmLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F7F3D25E4060D0080C16F /* SEFirmLoginViewController.swift */; };
+		CE2F7F4025E406B00080C16F /* SELoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F7F3F25E406B00080C16F /* SELoginViewController.swift */; };
+		CE2F7F4225E40BAD0080C16F /* SENavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F7F4125E40BAD0080C16F /* SENavigationViewController.swift */; };
 		CE3243C225DE32260021BFD0 /* SESlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */; };
 		CE354C8C25DE9AF60040E9DE /* SEAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */; };
 /* End PBXBuildFile section */
@@ -174,6 +177,9 @@
 		CE2F7F3125E3FB000080C16F /* PoppinsSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsSemiBold.ttf; sourceTree = "<group>"; };
 		CE2F7F3225E3FB000080C16F /* PoppinsLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsLight.ttf; sourceTree = "<group>"; };
 		CE2F7F3325E3FB000080C16F /* PoppinsBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsBold.ttf; sourceTree = "<group>"; };
+		CE2F7F3D25E4060D0080C16F /* SEFirmLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFirmLoginViewController.swift; sourceTree = "<group>"; };
+		CE2F7F3F25E406B00080C16F /* SELoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SELoginViewController.swift; sourceTree = "<group>"; };
+		CE2F7F4125E40BAD0080C16F /* SENavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SENavigationViewController.swift; sourceTree = "<group>"; };
 		CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SESlideMenuViewController.swift; sourceTree = "<group>"; };
 		CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAlertViewController.swift; sourceTree = "<group>"; };
 		DE9F8CA19C1D3E92D51EE850 /* Pods-SeaaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaaTests.debug.xcconfig"; path = "Target Support Files/Pods-SeaaTests/Pods-SeaaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -263,6 +269,7 @@
 				CE076E0D25DD8570001B6392 /* SEChildBaseViewController.swift */,
 				CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */,
 				CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */,
+				CE2F7F4125E40BAD0080C16F /* SENavigationViewController.swift */,
 				CE076E0425DD6F2E001B6392 /* navigation */,
 				CE076DFA25DD5821001B6392 /* Tabbar */,
 				CE076D9F25DD3672001B6392 /* DashBoard */,
@@ -277,6 +284,8 @@
 				CE076D7625DD22F6001B6392 /* Assets.xcassets */,
 				CE076D7B25DD22F6001B6392 /* Info.plist */,
 				CE076D7325DD22F3001B6392 /* Seaa.xcdatamodeld */,
+				CE2F7F3D25E4060D0080C16F /* SEFirmLoginViewController.swift */,
+				CE2F7F3F25E406B00080C16F /* SELoginViewController.swift */,
 			);
 			path = Seaa;
 			sourceTree = "<group>";
@@ -733,14 +742,17 @@
 				CE076DEF25DD53AB001B6392 /* HttpMacro.swift in Sources */,
 				CE076DF025DD53AB001B6392 /* AppComponents.swift in Sources */,
 				CE3243C225DE32260021BFD0 /* SESlideMenuViewController.swift in Sources */,
+				CE2F7F4025E406B00080C16F /* SELoginViewController.swift in Sources */,
 				CE076DA125DD368C001B6392 /* DashBoardViewController.swift in Sources */,
 				CE076E0C25DD7D5E001B6392 /* DasBoardDetailsViewController.swift in Sources */,
 				CE076D9E25DD2BA6001B6392 /* SETabbarViewController.swift in Sources */,
+				CE2F7F3E25E4060D0080C16F /* SEFirmLoginViewController.swift in Sources */,
 				CE076DF425DD53AB001B6392 /* Helper.swift in Sources */,
 				CE076DFD25DD58BF001B6392 /* SELayerViewController.swift in Sources */,
 				CE076DF125DD53AB001B6392 /* Reachability.swift in Sources */,
 				CE076E0125DD5935001B6392 /* SEProfileViewController.swift in Sources */,
 				CE354C8C25DE9AF60040E9DE /* SEAlertViewController.swift in Sources */,
+				CE2F7F4225E40BAD0080C16F /* SENavigationViewController.swift in Sources */,
 				CE076D7525DD22F3001B6392 /* Seaa.xcdatamodeld in Sources */,
 				CE076E0725DD6F2E001B6392 /* NavigationBar.swift in Sources */,
 			);

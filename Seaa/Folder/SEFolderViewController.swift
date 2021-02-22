@@ -18,3 +18,11 @@ class SEFolderViewController: SEBaseViewController {
         super.viewWillAppear(true)
     }
 }
+extension SEFolderViewController {
+    
+    @IBAction func btnLogOutTapped(_ sender: Any) {
+        let viewController = UIStoryboard(name: MAIN_STORY_BOARD, bundle: nil).instantiateViewController(withIdentifier: "SENavigationViewController") as! SENavigationViewController
+        UIApplication.shared.windows.first?.rootViewController = viewController
+        UIApplication.shared.windows.first?.makeKeyAndVisible()
+    }
+}
