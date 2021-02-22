@@ -70,6 +70,11 @@
 		CE076E0A25DD6F3E001B6392 /* SEBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0925DD6F3E001B6392 /* SEBaseViewController.swift */; };
 		CE076E0C25DD7D5E001B6392 /* DasBoardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0B25DD7D5E001B6392 /* DasBoardDetailsViewController.swift */; };
 		CE076E0E25DD8570001B6392 /* SEChildBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0D25DD8570001B6392 /* SEChildBaseViewController.swift */; };
+		CE2F7F3425E3FB000080C16F /* PoppinsRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F2F25E3FB000080C16F /* PoppinsRegular.ttf */; };
+		CE2F7F3525E3FB000080C16F /* PoppinsMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F3025E3FB000080C16F /* PoppinsMedium.ttf */; };
+		CE2F7F3625E3FB000080C16F /* PoppinsSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F3125E3FB000080C16F /* PoppinsSemiBold.ttf */; };
+		CE2F7F3725E3FB000080C16F /* PoppinsLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F3225E3FB000080C16F /* PoppinsLight.ttf */; };
+		CE2F7F3825E3FB000080C16F /* PoppinsBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F3325E3FB000080C16F /* PoppinsBold.ttf */; };
 		CE3243C225DE32260021BFD0 /* SESlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */; };
 		CE354C8C25DE9AF60040E9DE /* SEAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */; };
 /* End PBXBuildFile section */
@@ -164,6 +169,11 @@
 		CE076E0925DD6F3E001B6392 /* SEBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEBaseViewController.swift; sourceTree = "<group>"; };
 		CE076E0B25DD7D5E001B6392 /* DasBoardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasBoardDetailsViewController.swift; sourceTree = "<group>"; };
 		CE076E0D25DD8570001B6392 /* SEChildBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEChildBaseViewController.swift; sourceTree = "<group>"; };
+		CE2F7F2F25E3FB000080C16F /* PoppinsRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsRegular.ttf; sourceTree = "<group>"; };
+		CE2F7F3025E3FB000080C16F /* PoppinsMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsMedium.ttf; sourceTree = "<group>"; };
+		CE2F7F3125E3FB000080C16F /* PoppinsSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsSemiBold.ttf; sourceTree = "<group>"; };
+		CE2F7F3225E3FB000080C16F /* PoppinsLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsLight.ttf; sourceTree = "<group>"; };
+		CE2F7F3325E3FB000080C16F /* PoppinsBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsBold.ttf; sourceTree = "<group>"; };
 		CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SESlideMenuViewController.swift; sourceTree = "<group>"; };
 		CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAlertViewController.swift; sourceTree = "<group>"; };
 		DE9F8CA19C1D3E92D51EE850 /* Pods-SeaaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaaTests.debug.xcconfig"; path = "Target Support Files/Pods-SeaaTests/Pods-SeaaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -309,6 +319,11 @@
 		CE076DA325DD537F001B6392 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				CE2F7F3325E3FB000080C16F /* PoppinsBold.ttf */,
+				CE2F7F3225E3FB000080C16F /* PoppinsLight.ttf */,
+				CE2F7F3025E3FB000080C16F /* PoppinsMedium.ttf */,
+				CE2F7F2F25E3FB000080C16F /* PoppinsRegular.ttf */,
+				CE2F7F3125E3FB000080C16F /* PoppinsSemiBold.ttf */,
 				CE076DA425DD537F001B6392 /* Montserrat-LightItalic.ttf */,
 				CE076DA525DD537F001B6392 /* OpenSans-SemiBold.ttf */,
 				CE076DA625DD537F001B6392 /* Montserrat-Medium.ttf */,
@@ -539,6 +554,7 @@
 				CE076DD925DD5380001B6392 /* OpenSans-SemiBoldItalic.ttf in Resources */,
 				CE076DDC25DD5380001B6392 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				CE076DD725DD5380001B6392 /* OpenSans-Bold.ttf in Resources */,
+				CE2F7F3425E3FB000080C16F /* PoppinsRegular.ttf in Resources */,
 				CE076DE225DD5380001B6392 /* OpenSans-BoldItalic.ttf in Resources */,
 				CE076DC525DD5380001B6392 /* Montserrat-LightItalic.ttf in Resources */,
 				CE076DC825DD5380001B6392 /* Montserrat-BoldItalic.ttf in Resources */,
@@ -551,6 +567,7 @@
 				CE076DD325DD5380001B6392 /* Montserrat-SemiBold.ttf in Resources */,
 				CE076DDF25DD5380001B6392 /* SF-Pro-Text-Semibold.otf in Resources */,
 				CE076DE025DD5380001B6392 /* SF-Pro-Text-Medium.otf in Resources */,
+				CE2F7F3625E3FB000080C16F /* PoppinsSemiBold.ttf in Resources */,
 				CE076DC625DD5380001B6392 /* OpenSans-SemiBold.ttf in Resources */,
 				CE076DE325DD5380001B6392 /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				CE076DCE25DD5380001B6392 /* Montserrat-Bold.ttf in Resources */,
@@ -570,6 +587,9 @@
 				CE076DD525DD5380001B6392 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 				CE076DD225DD5380001B6392 /* OpenSans-ExtraBold.ttf in Resources */,
 				CE076DE425DD5380001B6392 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				CE2F7F3825E3FB000080C16F /* PoppinsBold.ttf in Resources */,
+				CE2F7F3525E3FB000080C16F /* PoppinsMedium.ttf in Resources */,
+				CE2F7F3725E3FB000080C16F /* PoppinsLight.ttf in Resources */,
 				CE076DD625DD5380001B6392 /* Montserrat-ExtraBold.ttf in Resources */,
 				CE076DCB25DD5380001B6392 /* Montserrat-ExtraLight.ttf in Resources */,
 			);
