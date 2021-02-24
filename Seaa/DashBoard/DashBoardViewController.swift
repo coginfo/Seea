@@ -49,7 +49,7 @@ extension DashBoardViewController: NavButtonActionDelegate {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let initial = storyboard.instantiateViewController(withIdentifier: "SEAlertViewController") as! SEAlertViewController
         initial.modalPresentationStyle = .overFullScreen
-        self.present(initial, animated: true, completion: {
+        self.present(initial, animated: false, completion: {
             initial.setAlertMessage(message: "Task Completed", imageType: .Completed)
         })
     }
