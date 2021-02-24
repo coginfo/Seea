@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56BB845A25E5638D00F17778 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB845725E5638D00F17778 /* UIColor+Extension.swift */; };
+		56BB845B25E5638D00F17778 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB845725E5638D00F17778 /* UIColor+Extension.swift */; };
+		56BB845C25E5638D00F17778 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB845725E5638D00F17778 /* UIColor+Extension.swift */; };
+		56BB845D25E5638D00F17778 /* PieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB845825E5638D00F17778 /* PieChartDataSet.swift */; };
+		56BB845E25E5638D00F17778 /* PieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB845825E5638D00F17778 /* PieChartDataSet.swift */; };
+		56BB845F25E5638D00F17778 /* PieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB845825E5638D00F17778 /* PieChartDataSet.swift */; };
+		56BB846025E5638D00F17778 /* LambdaPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB845925E5638D00F17778 /* LambdaPieChart.swift */; };
+		56BB846125E5638D00F17778 /* LambdaPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB845925E5638D00F17778 /* LambdaPieChart.swift */; };
+		56BB846225E5638D00F17778 /* LambdaPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB845925E5638D00F17778 /* LambdaPieChart.swift */; };
+		56BB846F25E5641C00F17778 /* DashboardTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB846925E5641C00F17778 /* DashboardTableHeader.swift */; };
+		56BB847025E5641C00F17778 /* DashboardTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB846925E5641C00F17778 /* DashboardTableHeader.swift */; };
+		56BB847125E5641C00F17778 /* DashboardTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB846925E5641C00F17778 /* DashboardTableHeader.swift */; };
+		56BB847225E5641C00F17778 /* DashboardTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846A25E5641C00F17778 /* DashboardTableHeader.xib */; };
+		56BB847325E5641C00F17778 /* DashboardTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846A25E5641C00F17778 /* DashboardTableHeader.xib */; };
+		56BB847425E5641C00F17778 /* DashboardTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846A25E5641C00F17778 /* DashboardTableHeader.xib */; };
+		56BB847525E5641C00F17778 /* DashboardChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB846B25E5641C00F17778 /* DashboardChartCell.swift */; };
+		56BB847625E5641C00F17778 /* DashboardChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB846B25E5641C00F17778 /* DashboardChartCell.swift */; };
+		56BB847725E5641C00F17778 /* DashboardChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB846B25E5641C00F17778 /* DashboardChartCell.swift */; };
+		56BB847825E5641C00F17778 /* DateFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB846C25E5641C00F17778 /* DateFilterCell.swift */; };
+		56BB847925E5641C00F17778 /* DateFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB846C25E5641C00F17778 /* DateFilterCell.swift */; };
+		56BB847A25E5641C00F17778 /* DateFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB846C25E5641C00F17778 /* DateFilterCell.swift */; };
+		56BB847B25E5641C00F17778 /* DateFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846D25E5641C00F17778 /* DateFilterCell.xib */; };
+		56BB847C25E5641C00F17778 /* DateFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846D25E5641C00F17778 /* DateFilterCell.xib */; };
+		56BB847D25E5641C00F17778 /* DateFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846D25E5641C00F17778 /* DateFilterCell.xib */; };
+		56BB847E25E5641C00F17778 /* DashboardChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846E25E5641C00F17778 /* DashboardChartCell.xib */; };
+		56BB847F25E5641C00F17778 /* DashboardChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846E25E5641C00F17778 /* DashboardChartCell.xib */; };
+		56BB848025E5641C00F17778 /* DashboardChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846E25E5641C00F17778 /* DashboardChartCell.xib */; };
 		787573D888521D510553B9B6 /* Pods_Seaa_SeaaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F022910BCCC210067F6337B8 /* Pods_Seaa_SeaaUITests.framework */; };
 		8251A5AD94709ACBCFFEB4CE /* Pods_Seaa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8917EDE80C8F5F7AD4EAB043 /* Pods_Seaa.framework */; };
 		B68DBAAFCF94658374A307F8 /* Pods_SeaaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71F1EEA35A84525FA7370A9 /* Pods_SeaaTests.framework */; };
@@ -102,6 +129,15 @@
 /* Begin PBXFileReference section */
 		18E0E150B873D1EF05B710A7 /* Pods-Seaa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seaa.debug.xcconfig"; path = "Target Support Files/Pods-Seaa/Pods-Seaa.debug.xcconfig"; sourceTree = "<group>"; };
 		486D0EC303676A78518A3066 /* Pods-Seaa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seaa.release.xcconfig"; path = "Target Support Files/Pods-Seaa/Pods-Seaa.release.xcconfig"; sourceTree = "<group>"; };
+		56BB845725E5638D00F17778 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		56BB845825E5638D00F17778 /* PieChartDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartDataSet.swift; sourceTree = "<group>"; };
+		56BB845925E5638D00F17778 /* LambdaPieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LambdaPieChart.swift; sourceTree = "<group>"; };
+		56BB846925E5641C00F17778 /* DashboardTableHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableHeader.swift; sourceTree = "<group>"; };
+		56BB846A25E5641C00F17778 /* DashboardTableHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardTableHeader.xib; sourceTree = "<group>"; };
+		56BB846B25E5641C00F17778 /* DashboardChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardChartCell.swift; sourceTree = "<group>"; };
+		56BB846C25E5641C00F17778 /* DateFilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFilterCell.swift; sourceTree = "<group>"; };
+		56BB846D25E5641C00F17778 /* DateFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateFilterCell.xib; sourceTree = "<group>"; };
+		56BB846E25E5641C00F17778 /* DashboardChartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardChartCell.xib; sourceTree = "<group>"; };
 		8917EDE80C8F5F7AD4EAB043 /* Pods_Seaa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seaa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E77376A248CB71D3316AF8C /* Pods-SeaaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaaTests.release.xcconfig"; path = "Target Support Files/Pods-SeaaTests/Pods-SeaaTests.release.xcconfig"; sourceTree = "<group>"; };
 		A71F1EEA35A84525FA7370A9 /* Pods_SeaaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeaaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +251,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56BB845625E5638D00F17778 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				56BB845725E5638D00F17778 /* UIColor+Extension.swift */,
+				56BB845825E5638D00F17778 /* PieChartDataSet.swift */,
+				56BB845925E5638D00F17778 /* LambdaPieChart.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
 		ADED4C7F18149CF87449BDF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +359,12 @@
 			children = (
 				CE076DA025DD368C001B6392 /* DashBoardViewController.swift */,
 				CE076E0B25DD7D5E001B6392 /* DasBoardDetailsViewController.swift */,
+				56BB846B25E5641C00F17778 /* DashboardChartCell.swift */,
+				56BB846E25E5641C00F17778 /* DashboardChartCell.xib */,
+				56BB846925E5641C00F17778 /* DashboardTableHeader.swift */,
+				56BB846A25E5641C00F17778 /* DashboardTableHeader.xib */,
+				56BB846C25E5641C00F17778 /* DateFilterCell.swift */,
+				56BB846D25E5641C00F17778 /* DateFilterCell.xib */,
 			);
 			path = DashBoard;
 			sourceTree = SOURCE_ROOT;
@@ -388,6 +440,7 @@
 				CE076DEB25DD53AB001B6392 /* AppColor.swift */,
 				CE076DEC25DD53AB001B6392 /* Helper.swift */,
 				CE076DED25DD53AB001B6392 /* HttpManager.swift */,
+				56BB845625E5638D00F17778 /* Chart */,
 			);
 			path = Helper;
 			sourceTree = SOURCE_ROOT;
@@ -589,6 +642,7 @@
 				CE076DE125DD5380001B6392 /* OpenSans-Regular.ttf in Resources */,
 				CE076D7725DD22F6001B6392 /* Assets.xcassets in Resources */,
 				CE076DCC25DD5380001B6392 /* Montserrat-Thin.ttf in Resources */,
+				56BB847E25E5641C00F17778 /* DashboardChartCell.xib in Resources */,
 				CE076E0825DD6F2E001B6392 /* NavigationBar.xib in Resources */,
 				CE076DC725DD5380001B6392 /* Montserrat-Medium.ttf in Resources */,
 				CE076DD425DD5380001B6392 /* OpenSans-LightItalic.ttf in Resources */,
@@ -596,8 +650,10 @@
 				CE076DD525DD5380001B6392 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 				CE076DD225DD5380001B6392 /* OpenSans-ExtraBold.ttf in Resources */,
 				CE076DE425DD5380001B6392 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				56BB847B25E5641C00F17778 /* DateFilterCell.xib in Resources */,
 				CE2F7F3825E3FB000080C16F /* PoppinsBold.ttf in Resources */,
 				CE2F7F3525E3FB000080C16F /* PoppinsMedium.ttf in Resources */,
+				56BB847225E5641C00F17778 /* DashboardTableHeader.xib in Resources */,
 				CE2F7F3725E3FB000080C16F /* PoppinsLight.ttf in Resources */,
 				CE076DD625DD5380001B6392 /* Montserrat-ExtraBold.ttf in Resources */,
 				CE076DCB25DD5380001B6392 /* Montserrat-ExtraLight.ttf in Resources */,
@@ -608,6 +664,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BB847325E5641C00F17778 /* DashboardTableHeader.xib in Resources */,
+				56BB847C25E5641C00F17778 /* DateFilterCell.xib in Resources */,
+				56BB847F25E5641C00F17778 /* DashboardChartCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +674,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BB847425E5641C00F17778 /* DashboardTableHeader.xib in Resources */,
+				56BB847D25E5641C00F17778 /* DateFilterCell.xib in Resources */,
+				56BB848025E5641C00F17778 /* DashboardChartCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,15 +792,20 @@
 			files = (
 				CE076E0E25DD8570001B6392 /* SEChildBaseViewController.swift in Sources */,
 				CE076DEE25DD53AB001B6392 /* Session.swift in Sources */,
+				56BB846025E5638D00F17778 /* LambdaPieChart.swift in Sources */,
 				CE076DFF25DD58F5001B6392 /* SEAddEventViewController.swift in Sources */,
 				CE076DF525DD53AB001B6392 /* HttpManager.swift in Sources */,
 				CE076DF225DD53AB001B6392 /* AppConstant.swift in Sources */,
 				CE076D6F25DD22F3001B6392 /* ViewController.swift in Sources */,
+				56BB845D25E5638D00F17778 /* PieChartDataSet.swift in Sources */,
 				CE076D6B25DD22F3001B6392 /* AppDelegate.swift in Sources */,
+				56BB845A25E5638D00F17778 /* UIColor+Extension.swift in Sources */,
 				CE076D6D25DD22F3001B6392 /* SceneDelegate.swift in Sources */,
 				CE076E0A25DD6F3E001B6392 /* SEBaseViewController.swift in Sources */,
 				CE076DF325DD53AB001B6392 /* AppColor.swift in Sources */,
+				56BB847525E5641C00F17778 /* DashboardChartCell.swift in Sources */,
 				CE076E0325DD596E001B6392 /* SEFolderViewController.swift in Sources */,
+				56BB847825E5641C00F17778 /* DateFilterCell.swift in Sources */,
 				CE076DEF25DD53AB001B6392 /* HttpMacro.swift in Sources */,
 				CE076DF025DD53AB001B6392 /* AppComponents.swift in Sources */,
 				CE3243C225DE32260021BFD0 /* SESlideMenuViewController.swift in Sources */,
@@ -746,6 +813,7 @@
 				CE076DA125DD368C001B6392 /* DashBoardViewController.swift in Sources */,
 				CE076E0C25DD7D5E001B6392 /* DasBoardDetailsViewController.swift in Sources */,
 				CE076D9E25DD2BA6001B6392 /* SETabbarViewController.swift in Sources */,
+				56BB846F25E5641C00F17778 /* DashboardTableHeader.swift in Sources */,
 				CE2F7F3E25E4060D0080C16F /* SEFirmLoginViewController.swift in Sources */,
 				CE076DF425DD53AB001B6392 /* Helper.swift in Sources */,
 				CE076DFD25DD58BF001B6392 /* SELayerViewController.swift in Sources */,
@@ -762,7 +830,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BB846125E5638D00F17778 /* LambdaPieChart.swift in Sources */,
+				56BB847925E5641C00F17778 /* DateFilterCell.swift in Sources */,
 				CE076D8525DD22F6001B6392 /* SeaaTests.swift in Sources */,
+				56BB845B25E5638D00F17778 /* UIColor+Extension.swift in Sources */,
+				56BB845E25E5638D00F17778 /* PieChartDataSet.swift in Sources */,
+				56BB847025E5641C00F17778 /* DashboardTableHeader.swift in Sources */,
+				56BB847625E5641C00F17778 /* DashboardChartCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,7 +844,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BB846225E5638D00F17778 /* LambdaPieChart.swift in Sources */,
+				56BB847A25E5641C00F17778 /* DateFilterCell.swift in Sources */,
 				CE076D9025DD22F6001B6392 /* SeaaUITests.swift in Sources */,
+				56BB845C25E5638D00F17778 /* UIColor+Extension.swift in Sources */,
+				56BB845F25E5638D00F17778 /* PieChartDataSet.swift in Sources */,
+				56BB847125E5641C00F17778 /* DashboardTableHeader.swift in Sources */,
+				56BB847725E5641C00F17778 /* DashboardChartCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
