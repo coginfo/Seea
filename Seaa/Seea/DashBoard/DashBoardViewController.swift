@@ -26,6 +26,7 @@ class DashBoardViewController: SEBaseViewController {
 extension DashBoardViewController {
     
     func tblViewSetUp() {
+        self.dashboardTableView.backgroundColor = UIColor.clear
         self.dashboardTableView.delegate = self
         self.dashboardTableView.dataSource = self
         self.dashboardTableView.tableFooterView = UIView()
@@ -35,7 +36,10 @@ extension DashBoardViewController {
 
         let headerNib = UINib.init(nibName: "DashboardTableHeader", bundle: Bundle.main)
         self.dashboardTableView.register(headerNib, forHeaderFooterViewReuseIdentifier: "DashboardTableHeader")
+        self.dashboardTableView.register(UINib(nibName: "OverdueTaskCell", bundle: nil), forCellReuseIdentifier: "OverdueTaskCell")
+        self.dashboardTableView.register(UINib(nibName: "RecentActivitiesCell", bundle: nil), forCellReuseIdentifier: "RecentActivitiesCell")
 
+        
     }
     
     func sectionOneCell(tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {
@@ -47,6 +51,21 @@ extension DashBoardViewController {
         }
     }
     
+    func overdueTaskCell(tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {
+        return callOverdueCell(tableView: tableView, indexPath: indexPath)
+    }
+    
+    func callOverdueCell(tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {
+        let cell: OverdueTaskCell = tableView.dequeueReusableCell(withIdentifier: "OverdueTaskCell") as! OverdueTaskCell
+        cell.selectionStyle = .none
+        
+        cell.overdueCollectionView?.register(UINib(nibName: "TaskCollectionViewCell", bundle:nil), forCellWithReuseIdentifier: "TaskCollectionViewCell")
+        cell.overdueCollectionView.dataSource = self
+        cell.overdueCollectionView?.delegate = self
+        
+        return cell
+    }
+    
     func dateFilterCell(tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {
         let cell: DateFilterCell = tableView.dequeueReusableCell(withIdentifier: "DateFilterCell") as! DateFilterCell
         cell.selectionStyle = .none
@@ -56,6 +75,21 @@ extension DashBoardViewController {
     func dashboardCartCell(tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {
         let cell: DashboardChartCell = tableView.dequeueReusableCell(withIdentifier: "DashboardChartCell") as! DashboardChartCell
         cell.selectionStyle = .none
+        return cell
+    }
+    
+    func recentActivitySection(tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {
+        let cell: RecentActivitiesCell = tableView.dequeueReusableCell(withIdentifier: "RecentActivitiesCell") as! RecentActivitiesCell
+        cell.selectionStyle = .none
+        
+        if indexPath.row == 0  {
+            cell.vwTopDotted.isHidden = true
+        }
+        
+        if indexPath.row == 4  {
+            cell.vwBottomDotted.isHidden = true
+        }
+        
         return cell
     }
 }
@@ -81,7 +115,7 @@ extension DashBoardViewController: UITableViewDataSource, UITableViewDelegate{
         case 1:
             return 1
         case 2:
-            return 1
+            return 5
         default:
             return 1
         }
@@ -119,8 +153,12 @@ extension DashBoardViewController: UITableViewDataSource, UITableViewDelegate{
         switch indexPath.section {
         case 0:
             return sectionOneCell(tableView: tableView, indexPath: indexPath)
+        case 1:
+            return overdueTaskCell(tableView: tableView, indexPath: indexPath)
+        case 2:
+            return recentActivitySection(tableView: tableView, indexPath: indexPath)
         default:
-            return dateFilterCell(tableView: tableView, indexPath: indexPath)
+            return sectionOneCell(tableView: tableView, indexPath: indexPath)
         }
     }
     
@@ -165,4 +203,30 @@ extension DashBoardViewController: NavButtonActionDelegate {
             initial.setAlertMessage(message: "Task Completed", imageType: .Completed)
         })
     }
+}
+
+
+
+extension DashBoardViewController: UICollectionViewDelegate , UICollectionViewDataSource , UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 5 // How many cells to display
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TaskCollectionViewCell", for: indexPath) as! TaskCollectionViewCell
+        cell.backgroundColor = UIColor.clear
+        cell.widthCollection.constant = (UIScreen.main.bounds.size.width / 100) * 60
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: UIScreen.main.bounds.size.width , height: 110)
+//            let temp = self.categoryList[indexPath.row].name ?? ""
+//        let temsize = temp.widthOfString(usingFont: UIFont(name: "HelveticaNeue-Medium", size: 14)!)
+//            return CGSize(width: temsize + 35 , height: 80)
+        }
 }

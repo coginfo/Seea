@@ -34,6 +34,20 @@
 		56BB847E25E5641C00F17778 /* DashboardChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846E25E5641C00F17778 /* DashboardChartCell.xib */; };
 		56BB847F25E5641C00F17778 /* DashboardChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846E25E5641C00F17778 /* DashboardChartCell.xib */; };
 		56BB848025E5641C00F17778 /* DashboardChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BB846E25E5641C00F17778 /* DashboardChartCell.xib */; };
+		56C52F4E25E69189002F59FE /* OverdueTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C52F4C25E69189002F59FE /* OverdueTaskCell.swift */; };
+		56C52F4F25E69189002F59FE /* OverdueTaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C52F4D25E69189002F59FE /* OverdueTaskCell.xib */; };
+		56C52F5525E69698002F59FE /* TaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C52F5325E69698002F59FE /* TaskCollectionViewCell.swift */; };
+		56C52F5625E69698002F59FE /* TaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C52F5325E69698002F59FE /* TaskCollectionViewCell.swift */; };
+		56C52F5725E69698002F59FE /* TaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C52F5325E69698002F59FE /* TaskCollectionViewCell.swift */; };
+		56C52F5825E69698002F59FE /* TaskCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C52F5425E69698002F59FE /* TaskCollectionViewCell.xib */; };
+		56C52F5925E69698002F59FE /* TaskCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C52F5425E69698002F59FE /* TaskCollectionViewCell.xib */; };
+		56C52F5A25E69698002F59FE /* TaskCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C52F5425E69698002F59FE /* TaskCollectionViewCell.xib */; };
+		56C52F6025E69E9D002F59FE /* RecentActivitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C52F5E25E69E9D002F59FE /* RecentActivitiesCell.swift */; };
+		56C52F6125E69E9D002F59FE /* RecentActivitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C52F5E25E69E9D002F59FE /* RecentActivitiesCell.swift */; };
+		56C52F6225E69E9D002F59FE /* RecentActivitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C52F5E25E69E9D002F59FE /* RecentActivitiesCell.swift */; };
+		56C52F6325E69E9D002F59FE /* RecentActivitiesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C52F5F25E69E9D002F59FE /* RecentActivitiesCell.xib */; };
+		56C52F6425E69E9D002F59FE /* RecentActivitiesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C52F5F25E69E9D002F59FE /* RecentActivitiesCell.xib */; };
+		56C52F6525E69E9D002F59FE /* RecentActivitiesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C52F5F25E69E9D002F59FE /* RecentActivitiesCell.xib */; };
 		787573D888521D510553B9B6 /* Pods_Seaa_SeaaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F022910BCCC210067F6337B8 /* Pods_Seaa_SeaaUITests.framework */; };
 		8251A5AD94709ACBCFFEB4CE /* Pods_Seaa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8917EDE80C8F5F7AD4EAB043 /* Pods_Seaa.framework */; };
 		B68DBAAFCF94658374A307F8 /* Pods_SeaaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71F1EEA35A84525FA7370A9 /* Pods_SeaaTests.framework */; };
@@ -138,6 +152,12 @@
 		56BB846C25E5641C00F17778 /* DateFilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFilterCell.swift; sourceTree = "<group>"; };
 		56BB846D25E5641C00F17778 /* DateFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateFilterCell.xib; sourceTree = "<group>"; };
 		56BB846E25E5641C00F17778 /* DashboardChartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardChartCell.xib; sourceTree = "<group>"; };
+		56C52F4C25E69189002F59FE /* OverdueTaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverdueTaskCell.swift; sourceTree = "<group>"; };
+		56C52F4D25E69189002F59FE /* OverdueTaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverdueTaskCell.xib; sourceTree = "<group>"; };
+		56C52F5325E69698002F59FE /* TaskCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCollectionViewCell.swift; sourceTree = "<group>"; };
+		56C52F5425E69698002F59FE /* TaskCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCollectionViewCell.xib; sourceTree = "<group>"; };
+		56C52F5E25E69E9D002F59FE /* RecentActivitiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentActivitiesCell.swift; sourceTree = "<group>"; };
+		56C52F5F25E69E9D002F59FE /* RecentActivitiesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentActivitiesCell.xib; sourceTree = "<group>"; };
 		8917EDE80C8F5F7AD4EAB043 /* Pods_Seaa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seaa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E77376A248CB71D3316AF8C /* Pods-SeaaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaaTests.release.xcconfig"; path = "Target Support Files/Pods-SeaaTests/Pods-SeaaTests.release.xcconfig"; sourceTree = "<group>"; };
 		A71F1EEA35A84525FA7370A9 /* Pods_SeaaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeaaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -365,6 +385,12 @@
 				56BB846A25E5641C00F17778 /* DashboardTableHeader.xib */,
 				56BB846C25E5641C00F17778 /* DateFilterCell.swift */,
 				56BB846D25E5641C00F17778 /* DateFilterCell.xib */,
+				56C52F4C25E69189002F59FE /* OverdueTaskCell.swift */,
+				56C52F4D25E69189002F59FE /* OverdueTaskCell.xib */,
+				56C52F5325E69698002F59FE /* TaskCollectionViewCell.swift */,
+				56C52F5425E69698002F59FE /* TaskCollectionViewCell.xib */,
+				56C52F5E25E69E9D002F59FE /* RecentActivitiesCell.swift */,
+				56C52F5F25E69E9D002F59FE /* RecentActivitiesCell.xib */,
 			);
 			path = DashBoard;
 			sourceTree = SOURCE_ROOT;
@@ -617,10 +643,12 @@
 				CE076DDC25DD5380001B6392 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				CE076DD725DD5380001B6392 /* OpenSans-Bold.ttf in Resources */,
 				CE2F7F3425E3FB000080C16F /* PoppinsRegular.ttf in Resources */,
+				56C52F6325E69E9D002F59FE /* RecentActivitiesCell.xib in Resources */,
 				CE076DE225DD5380001B6392 /* OpenSans-BoldItalic.ttf in Resources */,
 				CE076DC525DD5380001B6392 /* Montserrat-LightItalic.ttf in Resources */,
 				CE076DC825DD5380001B6392 /* Montserrat-BoldItalic.ttf in Resources */,
 				CE076DCF25DD5380001B6392 /* Montserrat-MediumItalic.ttf in Resources */,
+				56C52F4F25E69189002F59FE /* OverdueTaskCell.xib in Resources */,
 				CE076DDD25DD5380001B6392 /* SF-Pro-Text-Regular.otf in Resources */,
 				CE076DDE25DD5380001B6392 /* SF-Pro-Text-Bold.otf in Resources */,
 				CE076DD025DD5380001B6392 /* OpenSans-Italic.ttf in Resources */,
@@ -651,6 +679,7 @@
 				CE076DD225DD5380001B6392 /* OpenSans-ExtraBold.ttf in Resources */,
 				CE076DE425DD5380001B6392 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
 				56BB847B25E5641C00F17778 /* DateFilterCell.xib in Resources */,
+				56C52F5825E69698002F59FE /* TaskCollectionViewCell.xib in Resources */,
 				CE2F7F3825E3FB000080C16F /* PoppinsBold.ttf in Resources */,
 				CE2F7F3525E3FB000080C16F /* PoppinsMedium.ttf in Resources */,
 				56BB847225E5641C00F17778 /* DashboardTableHeader.xib in Resources */,
@@ -665,8 +694,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				56BB847325E5641C00F17778 /* DashboardTableHeader.xib in Resources */,
+				56C52F5925E69698002F59FE /* TaskCollectionViewCell.xib in Resources */,
 				56BB847C25E5641C00F17778 /* DateFilterCell.xib in Resources */,
 				56BB847F25E5641C00F17778 /* DashboardChartCell.xib in Resources */,
+				56C52F6425E69E9D002F59FE /* RecentActivitiesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,8 +706,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				56BB847425E5641C00F17778 /* DashboardTableHeader.xib in Resources */,
+				56C52F5A25E69698002F59FE /* TaskCollectionViewCell.xib in Resources */,
 				56BB847D25E5641C00F17778 /* DateFilterCell.xib in Resources */,
 				56BB848025E5641C00F17778 /* DashboardChartCell.xib in Resources */,
+				56C52F6525E69E9D002F59FE /* RecentActivitiesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,6 +828,7 @@
 				56BB846025E5638D00F17778 /* LambdaPieChart.swift in Sources */,
 				CE076DFF25DD58F5001B6392 /* SEAddEventViewController.swift in Sources */,
 				CE076DF525DD53AB001B6392 /* HttpManager.swift in Sources */,
+				56C52F4E25E69189002F59FE /* OverdueTaskCell.swift in Sources */,
 				CE076DF225DD53AB001B6392 /* AppConstant.swift in Sources */,
 				CE076D6F25DD22F3001B6392 /* ViewController.swift in Sources */,
 				56BB845D25E5638D00F17778 /* PieChartDataSet.swift in Sources */,
@@ -812,6 +846,7 @@
 				CE2F7F4025E406B00080C16F /* SELoginViewController.swift in Sources */,
 				CE076DA125DD368C001B6392 /* DashBoardViewController.swift in Sources */,
 				CE076E0C25DD7D5E001B6392 /* DasBoardDetailsViewController.swift in Sources */,
+				56C52F6025E69E9D002F59FE /* RecentActivitiesCell.swift in Sources */,
 				CE076D9E25DD2BA6001B6392 /* SETabbarViewController.swift in Sources */,
 				56BB846F25E5641C00F17778 /* DashboardTableHeader.swift in Sources */,
 				CE2F7F3E25E4060D0080C16F /* SEFirmLoginViewController.swift in Sources */,
@@ -822,6 +857,7 @@
 				CE354C8C25DE9AF60040E9DE /* SEAlertViewController.swift in Sources */,
 				CE2F7F4225E40BAD0080C16F /* SENavigationViewController.swift in Sources */,
 				CE076D7525DD22F3001B6392 /* Seaa.xcdatamodeld in Sources */,
+				56C52F5525E69698002F59FE /* TaskCollectionViewCell.swift in Sources */,
 				CE076E0725DD6F2E001B6392 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -831,9 +867,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				56BB846125E5638D00F17778 /* LambdaPieChart.swift in Sources */,
+				56C52F5625E69698002F59FE /* TaskCollectionViewCell.swift in Sources */,
 				56BB847925E5641C00F17778 /* DateFilterCell.swift in Sources */,
 				CE076D8525DD22F6001B6392 /* SeaaTests.swift in Sources */,
 				56BB845B25E5638D00F17778 /* UIColor+Extension.swift in Sources */,
+				56C52F6125E69E9D002F59FE /* RecentActivitiesCell.swift in Sources */,
 				56BB845E25E5638D00F17778 /* PieChartDataSet.swift in Sources */,
 				56BB847025E5641C00F17778 /* DashboardTableHeader.swift in Sources */,
 				56BB847625E5641C00F17778 /* DashboardChartCell.swift in Sources */,
@@ -845,9 +883,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				56BB846225E5638D00F17778 /* LambdaPieChart.swift in Sources */,
+				56C52F5725E69698002F59FE /* TaskCollectionViewCell.swift in Sources */,
 				56BB847A25E5641C00F17778 /* DateFilterCell.swift in Sources */,
 				CE076D9025DD22F6001B6392 /* SeaaUITests.swift in Sources */,
 				56BB845C25E5638D00F17778 /* UIColor+Extension.swift in Sources */,
+				56C52F6225E69E9D002F59FE /* RecentActivitiesCell.swift in Sources */,
 				56BB845F25E5638D00F17778 /* PieChartDataSet.swift in Sources */,
 				56BB847125E5641C00F17778 /* DashboardTableHeader.swift in Sources */,
 				56BB847725E5641C00F17778 /* DashboardChartCell.swift in Sources */,
