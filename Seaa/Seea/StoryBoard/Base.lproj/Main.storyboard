@@ -649,17 +649,6 @@
             <point key="canvasLocation" x="-4788.4057971014499" y="-2277.4553571428569"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="Gzp-Qg-qwf">
-            <size key="intrinsicContentSize" width="77.5" height="26.5"/>
-        </designable>
-        <designable name="NwY-Qg-OsC">
-            <size key="intrinsicContentSize" width="149" height="26.5"/>
-        </designable>
-        <designable name="jmi-7T-5uQ">
-            <size key="intrinsicContentSize" width="155.5" height="26.5"/>
-        </designable>
-    </designables>
     <resources>
         <image name="checkmark.rectangle" catalog="system" width="128" height="93"/>
         <image name="multiply" catalog="system" width="128" height="111"/>
