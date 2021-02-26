@@ -24,6 +24,16 @@ enum SEAlertMessageType: Int {
     case NotCompleted
 }
 
+enum SEAddCellImageType: Int {
+    case Calendar
+    case DropDown
+    case TextOnly
+}
+enum SEAddCellType: Int {
+    case Normal
+    case Title
+}
+
 //MARK: <******************UIView - Header******************>
 
 
@@ -108,5 +118,44 @@ public class BtnAppStyle: UIButton {
         self.layer.shadowOpacity = 0.5
         self.layer.shadowRadius = 4
         self.layer.shadowOffset = CGSize.init(width: 0, height: 5)
+    }
+}
+
+public class AppCellGrayBackView: UIView {
+    
+    override init(frame: CGRect){
+        super.init(frame: frame)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        commonSetup()
+    }
+    
+    private func commonSetup() {
+        self.backgroundColor = UIColor.appCellViewBackColor()
+        self.layer.cornerRadius = 10.0
+        self.layer.borderColor = UIColor.clear.cgColor
+        self.layer.borderWidth = 1.0
+    }
+}
+
+// App Button Style
+public class TxtAddEvent: UITextField {
+    
+    override init(frame: CGRect){
+        super.init(frame: frame)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        commonSetup()
+    }
+    
+    private func commonSetup() {
+        self.backgroundColor = UIColor.clear
+        self.font = UIFont.setAppFontRegular(12)
+        self.textColor = UIColor.appHeadingTextColor()
+        self.borderStyle = .none
     }
 }

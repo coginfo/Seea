@@ -121,6 +121,10 @@
 		CE2F7F4225E40BAD0080C16F /* SENavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F7F4125E40BAD0080C16F /* SENavigationViewController.swift */; };
 		CE3243C225DE32260021BFD0 /* SESlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */; };
 		CE354C8C25DE9AF60040E9DE /* SEAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */; };
+		CE4486F125E6A51300AFBA83 /* SEAddEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4486EF25E6A51300AFBA83 /* SEAddEventTableViewCell.swift */; };
+		CE4486F225E6A51300AFBA83 /* SEAddEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4486F025E6A51300AFBA83 /* SEAddEventTableViewCell.xib */; };
+		CE4486F525E6B30000AFBA83 /* SETitleAddEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4486F325E6B30000AFBA83 /* SETitleAddEventTableViewCell.swift */; };
+		CE4486F625E6B30000AFBA83 /* SETitleAddEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4486F425E6B30000AFBA83 /* SETitleAddEventTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,6 +242,10 @@
 		CE2F7F4125E40BAD0080C16F /* SENavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SENavigationViewController.swift; sourceTree = "<group>"; };
 		CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SESlideMenuViewController.swift; sourceTree = "<group>"; };
 		CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAlertViewController.swift; sourceTree = "<group>"; };
+		CE4486EF25E6A51300AFBA83 /* SEAddEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAddEventTableViewCell.swift; sourceTree = "<group>"; };
+		CE4486F025E6A51300AFBA83 /* SEAddEventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEAddEventTableViewCell.xib; sourceTree = "<group>"; };
+		CE4486F325E6B30000AFBA83 /* SETitleAddEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SETitleAddEventTableViewCell.swift; sourceTree = "<group>"; };
+		CE4486F425E6B30000AFBA83 /* SETitleAddEventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SETitleAddEventTableViewCell.xib; sourceTree = "<group>"; };
 		DE9F8CA19C1D3E92D51EE850 /* Pods-SeaaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaaTests.debug.xcconfig"; path = "Target Support Files/Pods-SeaaTests/Pods-SeaaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F022910BCCC210067F6337B8 /* Pods_Seaa_SeaaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seaa_SeaaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6309917457B8C43D5FC0F0D /* Pods-Seaa-SeaaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seaa-SeaaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Seaa-SeaaUITests/Pods-Seaa-SeaaUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -499,6 +507,10 @@
 			isa = PBXGroup;
 			children = (
 				CE076DFE25DD58F5001B6392 /* SEAddEventViewController.swift */,
+				CE4486F325E6B30000AFBA83 /* SETitleAddEventTableViewCell.swift */,
+				CE4486F425E6B30000AFBA83 /* SETitleAddEventTableViewCell.xib */,
+				CE4486EF25E6A51300AFBA83 /* SEAddEventTableViewCell.swift */,
+				CE4486F025E6A51300AFBA83 /* SEAddEventTableViewCell.xib */,
 			);
 			name = AddEvent;
 			path = Seaa/AddEvent;
@@ -667,6 +679,7 @@
 				CE076DDA25DD5380001B6392 /* Montserrat-Regular.ttf in Resources */,
 				CE076DCA25DD5380001B6392 /* Montserrat-ThinItalic.ttf in Resources */,
 				CE076DCD25DD5380001B6392 /* OpenSans-Light.ttf in Resources */,
+				CE4486F625E6B30000AFBA83 /* SETitleAddEventTableViewCell.xib in Resources */,
 				CE076DE125DD5380001B6392 /* OpenSans-Regular.ttf in Resources */,
 				CE076D7725DD22F6001B6392 /* Assets.xcassets in Resources */,
 				CE076DCC25DD5380001B6392 /* Montserrat-Thin.ttf in Resources */,
@@ -675,6 +688,7 @@
 				CE076DC725DD5380001B6392 /* Montserrat-Medium.ttf in Resources */,
 				CE076DD425DD5380001B6392 /* OpenSans-LightItalic.ttf in Resources */,
 				CE076D7225DD22F3001B6392 /* Main.storyboard in Resources */,
+				CE4486F225E6A51300AFBA83 /* SEAddEventTableViewCell.xib in Resources */,
 				CE076DD525DD5380001B6392 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 				CE076DD225DD5380001B6392 /* OpenSans-ExtraBold.ttf in Resources */,
 				CE076DE425DD5380001B6392 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
@@ -834,7 +848,9 @@
 				56BB845D25E5638D00F17778 /* PieChartDataSet.swift in Sources */,
 				CE076D6B25DD22F3001B6392 /* AppDelegate.swift in Sources */,
 				56BB845A25E5638D00F17778 /* UIColor+Extension.swift in Sources */,
+				CE4486F125E6A51300AFBA83 /* SEAddEventTableViewCell.swift in Sources */,
 				CE076D6D25DD22F3001B6392 /* SceneDelegate.swift in Sources */,
+				CE4486F525E6B30000AFBA83 /* SETitleAddEventTableViewCell.swift in Sources */,
 				CE076E0A25DD6F3E001B6392 /* SEBaseViewController.swift in Sources */,
 				CE076DF325DD53AB001B6392 /* AppColor.swift in Sources */,
 				56BB847525E5641C00F17778 /* DashboardChartCell.swift in Sources */,
