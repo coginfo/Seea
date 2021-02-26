@@ -68,4 +68,8 @@ public extension UIColor {
     class func appHeadingTextColor()->UIColor {
         return UIColor.init(hexString: "#191f35")
     }
+    
+    class func appCellViewBackColor()->UIColor {
+        return UIColor.init(hexString: "#f4f5fa")
+    }
 }

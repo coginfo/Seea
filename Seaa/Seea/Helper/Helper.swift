@@ -462,7 +462,11 @@ extension UIImageView {
 extension UIFont {
     
     class func setAppFontRegular(_ size:CGFloat)->(UIFont) {
-        return UIFont(name: "PoppinsRegular", size: size)!
+        
+        if  let font = UIFont(name: "PoppinsRegular", size: 12) {
+            return font
+        }
+        return UIFont.systemFont(ofSize: size)
     }
     
     class func setAppFontMedium(_ size:CGFloat)->(UIFont) {
@@ -547,3 +551,4 @@ extension UIDevice {
         }
     }
 }
+

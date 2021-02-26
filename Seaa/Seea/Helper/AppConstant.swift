@@ -105,3 +105,6 @@ let SEARCH_MENU = "menu"
 let COMPLETED_ALERT = "tick_1x"
 let CLOSED_ALERT = "closed_3x"
 
+//Cell Image
+let CALENDAR_CELL = "calender"
+let DROPDOWN_CELL = "drop_down_grey"
