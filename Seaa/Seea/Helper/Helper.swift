@@ -462,34 +462,24 @@ extension UIImageView {
 extension UIFont {
     
     class func setAppFontRegular(_ size:CGFloat)->(UIFont) {
-        
-        if  let font = UIFont(name: "PoppinsRegular", size: 12) {
-            return font
-        }
-        return UIFont.systemFont(ofSize: size)
+        return UIFont(name: "Poppins-Regular", size: size)!
     }
     
     class func setAppFontMedium(_ size:CGFloat)->(UIFont) {
-        return UIFont(name: "PoppinsMedium", size: size)!
+        return UIFont(name: "Poppins-Medium", size: size)!
     }
     
     class func setAppFontBold(_ size:CGFloat)->(UIFont) {
-        return UIFont(name: "PoppinsBold", size: size)!
+        return UIFont(name: "Poppins-Bold", size: size)!
     }
     
     class func setAppFontLight(_ size:CGFloat)->(UIFont) {
-        return UIFont(name: "PoppinsLight", size: size)!
+        return UIFont(name: "Poppins-Light", size: size)!
     }
     
     class func setAppFontSemiBold(_ size:CGFloat)->(UIFont) {
-        
-        if  let font = UIFont(name: "PoppinsSemiBold", size: 12) {
-            return font
-        }
-        return UIFont.systemFont(ofSize: size)
+        return UIFont(name: "Poppins-SemiBold", size: 12)!
     }
-    
-    
 }
 // MARK: - Color
 extension UIColor {
@@ -551,4 +541,3 @@ extension UIDevice {
         }
     }
 }
-
