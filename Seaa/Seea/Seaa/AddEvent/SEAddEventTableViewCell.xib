@@ -22,22 +22,23 @@
                             <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nVz-hO-e2X" customClass="AppCellGrayBackView" customModule="Seaa" customModuleProvider="target">
                                 <rect key="frame" x="10" y="4" width="300" height="52"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Abt-Vk-AOH" customClass="TxtAddEvent" customModule="Seaa" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="9" width="249" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Abt-Vk-AOH" customClass="TxtAddEvent" customModule="Seaa" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="13" width="249" height="26.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LMa-RN-iOV">
-                                        <rect key="frame" x="257" y="8.5" width="35" height="35"/>
+                                        <rect key="frame" x="267" y="13.5" width="25" height="25"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="ROf-hw-J4S"/>
-                                            <constraint firstAttribute="width" constant="35" id="web-Ve-PKd"/>
+                                            <constraint firstAttribute="height" constant="25" id="ROf-hw-J4S"/>
+                                            <constraint firstAttribute="width" constant="25" id="web-Ve-PKd"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="Abt-Vk-AOH" firstAttribute="leading" secondItem="nVz-hO-e2X" secondAttribute="leading" id="0OG-Ea-kAH"/>
+                                    <constraint firstItem="Abt-Vk-AOH" firstAttribute="leading" secondItem="nVz-hO-e2X" secondAttribute="leading" constant="10" id="0OG-Ea-kAH"/>
                                     <constraint firstAttribute="trailing" secondItem="LMa-RN-iOV" secondAttribute="trailing" constant="8" id="Jnl-Pt-e5x"/>
                                     <constraint firstItem="LMa-RN-iOV" firstAttribute="leading" secondItem="Abt-Vk-AOH" secondAttribute="trailing" constant="8" id="Tva-dw-87c"/>
                                     <constraint firstItem="Abt-Vk-AOH" firstAttribute="centerY" secondItem="nVz-hO-e2X" secondAttribute="centerY" id="anh-yo-z1F"/>
@@ -45,9 +46,10 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="nVz-hO-e2X" firstAttribute="top" secondItem="DBn-j7-8ed" secondAttribute="top" constant="4" id="NLK-Sb-VZJ"/>
+                            <constraint firstAttribute="height" constant="60" id="SP3-BJ-aYV"/>
                             <constraint firstAttribute="bottom" secondItem="nVz-hO-e2X" secondAttribute="bottom" constant="4" id="TSl-x9-A6U"/>
                             <constraint firstAttribute="trailing" secondItem="nVz-hO-e2X" secondAttribute="trailing" constant="10" id="a9L-kc-s3N"/>
                             <constraint firstItem="nVz-hO-e2X" firstAttribute="leading" secondItem="DBn-j7-8ed" secondAttribute="leading" constant="10" id="pgC-Sf-hAd"/>
@@ -61,6 +63,7 @@
                     <constraint firstAttribute="bottom" secondItem="DBn-j7-8ed" secondAttribute="bottom" id="jpA-ai-UBF"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="addEventImageview" destination="LMa-RN-iOV" id="xh5-jB-caq"/>

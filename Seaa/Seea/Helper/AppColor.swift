@@ -70,6 +70,6 @@ public extension UIColor {
     }
     
     class func appCellViewBackColor()->UIColor {
-        return UIColor.init(hexString: "#f4f5fa")
+        return UIColor.init(hexString: "#aaacb8")
     }
 }

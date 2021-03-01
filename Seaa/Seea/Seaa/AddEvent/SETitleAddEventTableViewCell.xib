@@ -42,40 +42,42 @@
                                 <rect key="frame" x="10" y="30" width="300" height="46"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k3x-N4-rEf" customClass="TxtAddEvent" customModule="Seaa" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="6" width="249" height="34"/>
+                                        <rect key="frame" x="10" y="6" width="249" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BLM-Zr-CL3">
-                                        <rect key="frame" x="257" y="5.5" width="35" height="35"/>
+                                        <rect key="frame" x="267" y="10.5" width="25" height="25"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="35" id="IVV-73-PtG"/>
-                                            <constraint firstAttribute="height" constant="35" id="NqY-8B-seE"/>
+                                            <constraint firstAttribute="width" constant="25" id="IVV-73-PtG"/>
+                                            <constraint firstAttribute="height" constant="25" id="NqY-8B-seE"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="k3x-N4-rEf" firstAttribute="centerY" secondItem="zPw-Sg-ntC" secondAttribute="centerY" id="44r-de-ami"/>
-                                    <constraint firstItem="k3x-N4-rEf" firstAttribute="leading" secondItem="zPw-Sg-ntC" secondAttribute="leading" id="fZc-J6-ZwZ"/>
+                                    <constraint firstItem="k3x-N4-rEf" firstAttribute="leading" secondItem="zPw-Sg-ntC" secondAttribute="leading" constant="10" id="fZc-J6-ZwZ"/>
                                     <constraint firstItem="BLM-Zr-CL3" firstAttribute="leading" secondItem="k3x-N4-rEf" secondAttribute="trailing" constant="8" id="h1S-cA-YdU"/>
                                     <constraint firstAttribute="trailing" secondItem="BLM-Zr-CL3" secondAttribute="trailing" constant="8" id="kYC-uv-efk"/>
                                     <constraint firstItem="BLM-Zr-CL3" firstAttribute="centerY" secondItem="zPw-Sg-ntC" secondAttribute="centerY" id="vk9-5n-nYy"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="zPw-Sg-ntC" firstAttribute="leading" secondItem="s88-Ly-Xy0" secondAttribute="leading" constant="10" id="381-bR-r1k"/>
                             <constraint firstItem="zPw-Sg-ntC" firstAttribute="top" secondItem="x0h-mB-qbp" secondAttribute="bottom" id="39J-ag-kXz"/>
                             <constraint firstItem="x0h-mB-qbp" firstAttribute="leading" secondItem="s88-Ly-Xy0" secondAttribute="leading" constant="10" id="FWA-xE-rAy"/>
                             <constraint firstAttribute="trailing" secondItem="x0h-mB-qbp" secondAttribute="trailing" constant="10" id="QH3-8u-KnT"/>
                             <constraint firstAttribute="trailing" secondItem="zPw-Sg-ntC" secondAttribute="trailing" constant="10" id="fAM-yb-09g"/>
+                            <constraint firstAttribute="height" constant="80" id="hOf-25-ySH"/>
                             <constraint firstAttribute="bottom" secondItem="zPw-Sg-ntC" secondAttribute="bottom" constant="4" id="llr-v9-0d1"/>
                             <constraint firstItem="x0h-mB-qbp" firstAttribute="top" secondItem="s88-Ly-Xy0" secondAttribute="top" constant="10" id="nzJ-hQ-lph"/>
                         </constraints>
                     </view>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="s88-Ly-Xy0" secondAttribute="bottom" id="9zG-az-WdA"/>
                     <constraint firstItem="s88-Ly-Xy0" firstAttribute="top" secondItem="FhD-9y-EJK" secondAttribute="top" id="FL7-R0-QgF"/>
@@ -83,11 +85,12 @@
                     <constraint firstItem="s88-Ly-Xy0" firstAttribute="leading" secondItem="FhD-9y-EJK" secondAttribute="leading" id="tti-l1-07s"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <viewLayoutGuide key="safeArea" id="GdG-pv-kcc"/>
             <connections>
-                <outlet property="addEventImageview" destination="BLM-Zr-CL3" id="rcI-qe-jKH"/>
+                <outlet property="addTitleEventImageview" destination="BLM-Zr-CL3" id="6Fm-o0-nog"/>
                 <outlet property="lblTitleAddEvent" destination="ztK-Ze-UdA" id="ev9-m4-W0I"/>
-                <outlet property="txtAddEvent" destination="k3x-N4-rEf" id="9N4-gY-uHQ"/>
+                <outlet property="txtTitleAddEvent" destination="k3x-N4-rEf" id="KTh-De-FHl"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="102.45535714285714"/>
         </tableViewCell>

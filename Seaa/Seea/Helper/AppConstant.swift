@@ -107,4 +107,4 @@ let CLOSED_ALERT = "closed_3x"
 
 //Cell Image
 let CALENDAR_CELL = "calender"
-let DROPDOWN_CELL = "drop_down_grey"
+let DROPDOWN_CELL = "arrow-down_1x"

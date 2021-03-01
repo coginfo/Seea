@@ -16,6 +16,7 @@ class SEAddEventTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.txtAddEvent.layer.sublayerTransform = CATransform3DMakeTranslation(-5, 0, 0)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

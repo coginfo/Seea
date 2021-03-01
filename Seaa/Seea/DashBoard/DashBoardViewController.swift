@@ -230,3 +230,13 @@ extension DashBoardViewController: UICollectionViewDelegate , UICollectionViewDa
 //            return CGSize(width: temsize + 35 , height: 80)
         }
 }
+
+extension DashBoardViewController {
+    
+     @IBAction func btnMenuTapped() {
+        let storyboard = UIStoryboard(name: MAIN_STORY_BOARD, bundle: nil)
+        let initial = storyboard.instantiateViewController(withIdentifier: SESlideMenuVC) as! SESlideMenuViewController
+        initial.modalPresentationStyle = .overFullScreen
+        self.present(initial, animated: true, completion: nil)
+    }
+}

@@ -16,6 +16,7 @@ class SETitleAddEventTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        //self.txtTitleAddEvent.layer.sublayerTransform = CATransform3DMakeTranslation(15, 0, 0)
         // Initialization code
     }
 
