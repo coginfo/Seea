@@ -84,8 +84,10 @@ extension SEAddEventViewController: UITableViewDelegate,UITableViewDataSource {
             if self.arrEventData[indexPath.row].imageType == .Calendar{
                 cellValue.addEventImageview?.image = self.getImage(imgName: CALENDAR_CELL)
             }
-            if self.arrEventData[indexPath.row].imageType == .DropDown{
+            else if self.arrEventData[indexPath.row].imageType == .DropDown{
                 cellValue.addEventImageview?.image = self.getImage(imgName: DROPDOWN_CELL)
+            }else {
+                cellValue.addEventImageview?.image = self.getImage(imgName: "")
             }
             
             cellValue.selectionStyle = .none
@@ -119,7 +121,7 @@ extension SEAddEventViewController {
     func getAddTaskList()
     {
         if Reachability.isConnectedToNetwork() == true || Reachability.isConnectedToNetwork() == false {
-            
+            self.arrEventData.removeAll()
             self.arrEventData.append(AddEventCellType.init(cellTitle: "", cellPlaceHolder: "Task Name", imageType: .TextOnly, cellType: .Normal))
             self.arrEventData.append(AddEventCellType.init(cellTitle: "", cellPlaceHolder: "Assigned date", imageType: .Calendar, cellType: .Normal))
             self.arrEventData.append(AddEventCellType.init(cellTitle: "", cellPlaceHolder: "Due date", imageType: .Calendar, cellType: .Normal))
