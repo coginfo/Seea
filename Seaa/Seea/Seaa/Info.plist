@@ -20,6 +20,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PoppinsBold.ttf</string>
+		<string>PoppinsMedium.ttf</string>
+		<string>PoppinsRegular.ttf</string>
+		<string>PoppinsLight.ttf</string>
+		<string>PoppinsSemiBold.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -50,8 +58,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -59,14 +65,6 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UIAppFonts</key>
-	<array>
-		<string>PoppinsBold.ttf</string>
-		<string>PoppinsMedium.ttf</string>
-		<string>PoppinsRegular.ttf</string>
-		<string>PoppinsLight.ttf</string>
-		<string>PoppinsSemiBold.ttf</string>
 	</array>
 </dict>
 </plist>
