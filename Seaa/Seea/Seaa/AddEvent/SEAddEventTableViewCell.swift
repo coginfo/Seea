@@ -19,10 +19,10 @@ class SEAddEventTableViewCell: UITableViewCell {
         self.txtAddEvent.layer.sublayerTransform = CATransform3DMakeTranslation(-5, 0, 0)
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+//    override func setSelected(_ selected: Bool, animated: Bool) {
+//        super.setSelected(selected, animated: animated)
+//
+//        // Configure the view for the selected state
+//    }
     
 }

@@ -12,7 +12,9 @@ target 'Seaa' do
    pod 'SwiftyJSON'
    pod 'TTGSnackbar'
    pod 'Kingfisher'
-
+   pod 'DatePicker', '~> 1.3.0'
+   #pod 'McPicker', '~> 3.0.0'
+   
   target 'SeaaTests' do
     inherit! :search_paths
     # Pods for testing
