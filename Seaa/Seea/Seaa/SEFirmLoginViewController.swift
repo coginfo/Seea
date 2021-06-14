@@ -8,6 +8,7 @@
 
 import UIKit
 import ACFloatingTextfield_Swift
+import SwiftyJSON
 
 class SEFirmLoginViewController: UIViewController {
     
@@ -41,7 +42,45 @@ extension SEFirmLoginViewController: UITextFieldDelegate{
 extension SEFirmLoginViewController {
     
     @IBAction func btnFirmLoginTapped(_ sender: Any) {
-        
+        self.txtFirmName?.text = "drole1815"
+        if self.txtFirmName?.text?.count != 0{
+            self.callFirmAPI()
+            //self.moveToSign()
+        }else {
+           Helper.shared.showSnackBarAlert(message: MSG_FIRM_KEY, type: .Failure)
+        }
+    }
+    
+    func callFirmAPI(){ //newGood
+        self.view.endEditing(true)
+        self.showActivityIndicator(self.view)
+        if Reachability.isConnectedToNetwork() == true {
+            var dictParams = [String : Any]()
+            dictParams =  ["firm_id" : self.removeWhiteSpace(text: self.txtFirmName?.text ?? "") as AnyObject]
+            print(dictParams)
+            HttpManager.sharedInstance.loginWithFirm(userData: dictParams as NSDictionary , successBlock: {[unowned self] (success, message, responseObject) in
+                self.hideActivityIndicator(self.view)
+                if success {
+                    print(responseObject)
+                    let data : JSON = JSON(responseObject as AnyObject)
+                    if data["key"].stringValue == "1101" {
+                        self.moveToSign()
+                        Session.sharedInstance.setfirm_keyToken(data["result"]["refKey"].stringValue)
+                    }else {
+                        Helper.shared.showSnackBarAlert(message: data["message"].stringValue, type: .Failure)
+                    }
+                }
+                }, failureBlock: {[unowned self] (errorMesssage) in
+                    self.hideActivityIndicator(self.view)
+                    Helper.shared.showSnackBarAlert(message: errorMesssage.description, type: .Failure)
+            });
+        }else {
+            self.hideActivityIndicator(self.view)
+            Helper.shared.showSnackBarAlert(message: NETWORK_CONNECTION, type: .Failure)
+        }
+    }
+    
+    func moveToSign() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let initial = storyboard.instantiateViewController(withIdentifier: "SELoginViewController") as! SELoginViewController
         self.navigationController?.pushViewController(initial, animated: true)

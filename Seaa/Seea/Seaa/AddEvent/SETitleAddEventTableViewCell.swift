@@ -16,14 +16,11 @@ class SETitleAddEventTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        //self.txtTitleAddEvent.layer.sublayerTransform = CATransform3DMakeTranslation(15, 0, 0)
-        // Initialization code
+        self.selectionStyle = .none
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
 }

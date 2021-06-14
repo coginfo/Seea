@@ -320,7 +320,7 @@ public extension UIViewController {
         activityIndicator.startAnimating()
     }
    
-    public func convertDictionaryToJsonString(userDict:AnyObject) -> String
+    func convertDictionaryToJsonString(userDict:AnyObject) -> String
     {
         let jsonData = try? JSONSerialization.data(withJSONObject: userDict, options: [])
         let jsonString = String(data: jsonData!, encoding: .utf8)
@@ -329,7 +329,7 @@ public extension UIViewController {
         
     }
     
-    public func convertJSONStringToDictionary(userDict:String) -> [String: Any]?
+    func convertJSONStringToDictionary(userDict:String) -> [String: Any]?
     {
         if let data = userDict.data(using: .utf8) {
             do {
@@ -343,18 +343,18 @@ public extension UIViewController {
     }
     
 
-    public func loadImage(url: String, imageView: UIImageView) {
+    func loadImage(url: String, imageView: UIImageView) {
         
         let tempUrl = URL(string: API_IMAGE_BASE_URL + url)
         imageView.kf.setImage(with: tempUrl, placeholder: UIImage(named: "lockPlaceHolder"), options: [.transition(.fade(0.2))])
     }
     
-    public func removeWhiteSpace(text:String) -> String
+    func removeWhiteSpace(text:String) -> String
     {
         return text.trimmingCharacters(in: CharacterSet.whitespaces)
     }
   
-    public func hideActivityIndicator(_ uiView: UIView) {
+    func hideActivityIndicator(_ uiView: UIView) {
         activityIndicator.stopAnimating()
         container.removeFromSuperview()
     }
@@ -478,7 +478,11 @@ extension UIFont {
     }
     
     class func setAppFontSemiBold(_ size:CGFloat)->(UIFont) {
-        return UIFont(name: "Poppins-SemiBold", size: 12)!
+        return UIFont(name: "Poppins-SemiBold", size: size)!
+    }
+    
+    class func setAppFontSemiBoldTitle(_ size:CGFloat)->(UIFont) {
+        return UIFont(name: "Poppins-SemiBold", size: size)!
     }
 }
 // MARK: - Color

@@ -72,4 +72,12 @@ public extension UIColor {
     class func appCellViewBackColor()->UIColor {
         return UIColor.init(hexString: "#aaacb8")
     }
+    
+    class func appCellViewBgColor()->UIColor {
+        return UIColor(red: 214.0/255.0, green: 215.0/255.0, blue: 219.0/255.0, alpha: 0.5)
+    }
+    
+    class func appCellEmployeeViewBgColor()->UIColor {
+        return UIColor(red: 219.0/255.0, green: 218.0/255.0, blue: 226.0/255.0, alpha: 1.0)
+    }
 }

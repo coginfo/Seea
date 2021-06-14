@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SEAddCommentsTableViewCell" rowHeight="100" id="8K7-5P-JS7" customClass="SEAddCommentsTableViewCell" customModule="Seaa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8K7-5P-JS7" id="jpS-QG-9Y9">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J6c-cX-bkL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <subviews>
+                            <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rne-9b-hyP" customClass="AppCellGrayBackView" customModule="Seaa" customModuleProvider="target">
+                                <rect key="frame" x="10" y="4" width="300" height="92"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jfm-7w-rSP" customClass="TxtViewAddEvent" customModule="Seaa" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="5" width="280" height="82"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="jfm-7w-rSP" firstAttribute="leading" secondItem="rne-9b-hyP" secondAttribute="leading" constant="10" id="0fu-iG-hwh"/>
+                                    <constraint firstItem="jfm-7w-rSP" firstAttribute="top" secondItem="rne-9b-hyP" secondAttribute="top" constant="5" id="KzI-w1-4yg"/>
+                                    <constraint firstAttribute="trailing" secondItem="jfm-7w-rSP" secondAttribute="trailing" constant="10" id="ROL-hq-2Vk"/>
+                                    <constraint firstItem="jfm-7w-rSP" firstAttribute="centerY" secondItem="rne-9b-hyP" secondAttribute="centerY" id="dFy-uK-HOH"/>
+                                    <constraint firstItem="jfm-7w-rSP" firstAttribute="centerX" secondItem="rne-9b-hyP" secondAttribute="centerX" id="kSJ-Uz-qJj"/>
+                                    <constraint firstAttribute="bottom" secondItem="jfm-7w-rSP" secondAttribute="bottom" constant="5" id="mJY-yQ-RwL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rne-9b-hyP" firstAttribute="top" secondItem="J6c-cX-bkL" secondAttribute="top" constant="4" id="2BX-P3-Yny"/>
+                            <constraint firstAttribute="trailing" secondItem="rne-9b-hyP" secondAttribute="trailing" constant="10" id="IjJ-Gd-wlD"/>
+                            <constraint firstItem="rne-9b-hyP" firstAttribute="leading" secondItem="J6c-cX-bkL" secondAttribute="leading" constant="10" id="OW6-3K-Hc6"/>
+                            <constraint firstAttribute="height" constant="100" id="cMG-MD-Ade"/>
+                            <constraint firstAttribute="bottom" secondItem="rne-9b-hyP" secondAttribute="bottom" constant="4" id="cg5-Kx-eMq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="J6c-cX-bkL" secondAttribute="trailing" id="6DO-D9-Vsf"/>
+                    <constraint firstItem="J6c-cX-bkL" firstAttribute="leading" secondItem="jpS-QG-9Y9" secondAttribute="leading" id="SFl-L8-ivB"/>
+                    <constraint firstItem="J6c-cX-bkL" firstAttribute="top" secondItem="jpS-QG-9Y9" secondAttribute="top" id="YDW-Yv-j22"/>
+                    <constraint firstAttribute="bottom" secondItem="J6c-cX-bkL" secondAttribute="bottom" id="pwL-4b-ChN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="EIB-ed-Hj4"/>
+            <connections>
+                <outlet property="txtComments" destination="jfm-7w-rSP" id="a0u-Ro-9Rk"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="102.45535714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

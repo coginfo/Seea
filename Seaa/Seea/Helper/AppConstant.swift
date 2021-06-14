@@ -68,6 +68,17 @@ let CONTENT_EMPTY_LAST_NAME = "Enter Last Name"
 let CONTENT_INVALID_CARD = "Invalid Card Data" //Enter valid email ID
 
 
+
+let CONTENT_TASK_NAME = "Enter Task Name"
+let CONTENT_ASSIGN_DATE = "Select Assign Date"
+let CONTENT_DUE_DATE = "Select Due Date"
+let CONTENT_JOB_TYPE = "Select Job Type"
+let CONTENT_COMPANY_TYPE = "Select Company"
+let CONTENT_TEMPLATE_TYPE = "Select Template"
+let CONTENT_PRIORITY_TYPE = "Select Priority"
+let CONTENT_COMMENTS_TYPE = "Enter Comments"
+let CONTENT_SELECT_TEAM = "Select Team"
+
 //Image
 let LoginViewBackImage = "loginback"
 let CHECK_BOX = "check_box"

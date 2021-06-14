@@ -111,6 +111,12 @@
 		CE076E0A25DD6F3E001B6392 /* SEBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0925DD6F3E001B6392 /* SEBaseViewController.swift */; };
 		CE076E0C25DD7D5E001B6392 /* DasBoardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0B25DD7D5E001B6392 /* DasBoardDetailsViewController.swift */; };
 		CE076E0E25DD8570001B6392 /* SEChildBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076E0D25DD8570001B6392 /* SEChildBaseViewController.swift */; };
+		CE2055B2265170D900E051E3 /* SEFirmAllTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2055B1265170D900E051E3 /* SEFirmAllTask.swift */; };
+		CE2055B42651727A00E051E3 /* SEFirmTaskDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2055B32651727A00E051E3 /* SEFirmTaskDetails.swift */; };
+		CE2055B62651765E00E051E3 /* SEFirmTemplateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2055B52651765E00E051E3 /* SEFirmTemplateList.swift */; };
+		CE2055B82651884200E051E3 /* SEFirmSubActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2055B72651884200E051E3 /* SEFirmSubActivities.swift */; };
+		CE255017264FA35700B58371 /* SEAddCommentsButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE255015264FA35700B58371 /* SEAddCommentsButtonTableViewCell.swift */; };
+		CE255018264FA35700B58371 /* SEAddCommentsButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE255016264FA35700B58371 /* SEAddCommentsButtonTableViewCell.xib */; };
 		CE2F7F3425E3FB000080C16F /* PoppinsRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F2F25E3FB000080C16F /* PoppinsRegular.ttf */; };
 		CE2F7F3525E3FB000080C16F /* PoppinsMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F3025E3FB000080C16F /* PoppinsMedium.ttf */; };
 		CE2F7F3625E3FB000080C16F /* PoppinsSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2F7F3125E3FB000080C16F /* PoppinsSemiBold.ttf */; };
@@ -121,10 +127,37 @@
 		CE2F7F4225E40BAD0080C16F /* SENavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F7F4125E40BAD0080C16F /* SENavigationViewController.swift */; };
 		CE3243C225DE32260021BFD0 /* SESlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */; };
 		CE354C8C25DE9AF60040E9DE /* SEAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */; };
+		CE39B7C32651006500CC41FB /* SEFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39B7C22651006500CC41FB /* SEFilterViewController.swift */; };
+		CE39B7C52651081500CC41FB /* FirmEmployeeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39B7C42651081500CC41FB /* FirmEmployeeList.swift */; };
 		CE4486F125E6A51300AFBA83 /* SEAddEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4486EF25E6A51300AFBA83 /* SEAddEventTableViewCell.swift */; };
 		CE4486F225E6A51300AFBA83 /* SEAddEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4486F025E6A51300AFBA83 /* SEAddEventTableViewCell.xib */; };
 		CE4486F525E6B30000AFBA83 /* SETitleAddEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4486F325E6B30000AFBA83 /* SETitleAddEventTableViewCell.swift */; };
 		CE4486F625E6B30000AFBA83 /* SETitleAddEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4486F425E6B30000AFBA83 /* SETitleAddEventTableViewCell.xib */; };
+		CE54DBEC2652A53200FB69C1 /* SEFirmEmployeeActiviesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54DBEB2652A53200FB69C1 /* SEFirmEmployeeActiviesDetails.swift */; };
+		CE54DBEE2652A94700FB69C1 /* SEFirmEmployeeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54DBED2652A94700FB69C1 /* SEFirmEmployeeDetails.swift */; };
+		CE54DBF02652AB9F00FB69C1 /* SEFirmEmployeeActiveDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54DBEF2652AB9F00FB69C1 /* SEFirmEmployeeActiveDetails.swift */; };
+		CE54DBF22652AD1B00FB69C1 /* SEFirmEmployeeActiveTaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54DBF12652AD1B00FB69C1 /* SEFirmEmployeeActiveTaskList.swift */; };
+		CE5E7253264C379300C9DF9C /* SETaskDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E7252264C379300C9DF9C /* SETaskDetailsViewController.swift */; };
+		CE5E7255264C483A00C9DF9C /* SEInnerTaskDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E7254264C483A00C9DF9C /* SEInnerTaskDetailsViewController.swift */; };
+		CE5E7258264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E7256264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.swift */; };
+		CE5E7259264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5E7257264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.xib */; };
+		CE7CC236264AC70600661461 /* SEAddSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CC234264AC70500661461 /* SEAddSelectionTableViewCell.swift */; };
+		CE7CC237264AC70600661461 /* SEAddSelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7CC235264AC70500661461 /* SEAddSelectionTableViewCell.xib */; };
+		CE7CC23A264AE99E00661461 /* SEEmployeeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CC238264AE99E00661461 /* SEEmployeeListTableViewCell.swift */; };
+		CE7CC23B264AE99E00661461 /* SEEmployeeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7CC239264AE99E00661461 /* SEEmployeeListTableViewCell.xib */; };
+		CE7CC23E264AEC6E00661461 /* SEExpandEmployeeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CC23C264AEC6E00661461 /* SEExpandEmployeeListTableViewCell.swift */; };
+		CE7CC23F264AEC6E00661461 /* SEExpandEmployeeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7CC23D264AEC6E00661461 /* SEExpandEmployeeListTableViewCell.xib */; };
+		CE7CC241264B03E800661461 /* SEProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CC240264B03E800661461 /* SEProfileDetailsViewController.swift */; };
+		CE7CC244264B0DC200661461 /* SETaskListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CC242264B0DC200661461 /* SETaskListTableViewCell.swift */; };
+		CE7CC245264B0DC200661461 /* SETaskListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7CC243264B0DC200661461 /* SETaskListTableViewCell.xib */; };
+		CEAD0AF32659012A0037D878 /* SEClientDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD0AF22659012A0037D878 /* SEClientDetailsViewController.swift */; };
+		CEAD0AF8265908A50037D878 /* SECompanyDetailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD0AF7265908A50037D878 /* SECompanyDetailInfo.swift */; };
+		CEAD0AFD26590A000037D878 /* SECompanyInfoTaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD0AFC26590A000037D878 /* SECompanyInfoTaskList.swift */; };
+		CEF7F54E264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F54C264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.swift */; };
+		CEF7F54F264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF7F54D264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.xib */; };
+		CEF7F559264DB4C400E3EDF3 /* CompanyBaseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F558264DB4C400E3EDF3 /* CompanyBaseList.swift */; };
+		CEF7F55B264DB91B00E3EDF3 /* TemplateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F55A264DB91B00E3EDF3 /* TemplateList.swift */; };
+		CEF7F55D264DBC7700E3EDF3 /* TeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F55C264DBC7700E3EDF3 /* TeamList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,6 +265,12 @@
 		CE076E0925DD6F3E001B6392 /* SEBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEBaseViewController.swift; sourceTree = "<group>"; };
 		CE076E0B25DD7D5E001B6392 /* DasBoardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasBoardDetailsViewController.swift; sourceTree = "<group>"; };
 		CE076E0D25DD8570001B6392 /* SEChildBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEChildBaseViewController.swift; sourceTree = "<group>"; };
+		CE2055B1265170D900E051E3 /* SEFirmAllTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFirmAllTask.swift; sourceTree = "<group>"; };
+		CE2055B32651727A00E051E3 /* SEFirmTaskDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFirmTaskDetails.swift; sourceTree = "<group>"; };
+		CE2055B52651765E00E051E3 /* SEFirmTemplateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFirmTemplateList.swift; sourceTree = "<group>"; };
+		CE2055B72651884200E051E3 /* SEFirmSubActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFirmSubActivities.swift; sourceTree = "<group>"; };
+		CE255015264FA35700B58371 /* SEAddCommentsButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAddCommentsButtonTableViewCell.swift; sourceTree = "<group>"; };
+		CE255016264FA35700B58371 /* SEAddCommentsButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEAddCommentsButtonTableViewCell.xib; sourceTree = "<group>"; };
 		CE2F7F2F25E3FB000080C16F /* PoppinsRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsRegular.ttf; sourceTree = "<group>"; };
 		CE2F7F3025E3FB000080C16F /* PoppinsMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsMedium.ttf; sourceTree = "<group>"; };
 		CE2F7F3125E3FB000080C16F /* PoppinsSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoppinsSemiBold.ttf; sourceTree = "<group>"; };
@@ -242,10 +281,37 @@
 		CE2F7F4125E40BAD0080C16F /* SENavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SENavigationViewController.swift; sourceTree = "<group>"; };
 		CE3243C125DE32260021BFD0 /* SESlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SESlideMenuViewController.swift; sourceTree = "<group>"; };
 		CE354C8B25DE9AF60040E9DE /* SEAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAlertViewController.swift; sourceTree = "<group>"; };
+		CE39B7C22651006500CC41FB /* SEFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFilterViewController.swift; sourceTree = "<group>"; };
+		CE39B7C42651081500CC41FB /* FirmEmployeeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmEmployeeList.swift; sourceTree = "<group>"; };
 		CE4486EF25E6A51300AFBA83 /* SEAddEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAddEventTableViewCell.swift; sourceTree = "<group>"; };
 		CE4486F025E6A51300AFBA83 /* SEAddEventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEAddEventTableViewCell.xib; sourceTree = "<group>"; };
 		CE4486F325E6B30000AFBA83 /* SETitleAddEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SETitleAddEventTableViewCell.swift; sourceTree = "<group>"; };
 		CE4486F425E6B30000AFBA83 /* SETitleAddEventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SETitleAddEventTableViewCell.xib; sourceTree = "<group>"; };
+		CE54DBEB2652A53200FB69C1 /* SEFirmEmployeeActiviesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFirmEmployeeActiviesDetails.swift; sourceTree = "<group>"; };
+		CE54DBED2652A94700FB69C1 /* SEFirmEmployeeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFirmEmployeeDetails.swift; sourceTree = "<group>"; };
+		CE54DBEF2652AB9F00FB69C1 /* SEFirmEmployeeActiveDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFirmEmployeeActiveDetails.swift; sourceTree = "<group>"; };
+		CE54DBF12652AD1B00FB69C1 /* SEFirmEmployeeActiveTaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFirmEmployeeActiveTaskList.swift; sourceTree = "<group>"; };
+		CE5E7252264C379300C9DF9C /* SETaskDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SETaskDetailsViewController.swift; sourceTree = "<group>"; };
+		CE5E7254264C483A00C9DF9C /* SEInnerTaskDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEInnerTaskDetailsViewController.swift; sourceTree = "<group>"; };
+		CE5E7256264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEInnerTaskDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		CE5E7257264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEInnerTaskDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		CE7CC234264AC70500661461 /* SEAddSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAddSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		CE7CC235264AC70500661461 /* SEAddSelectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEAddSelectionTableViewCell.xib; sourceTree = "<group>"; };
+		CE7CC238264AE99E00661461 /* SEEmployeeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEEmployeeListTableViewCell.swift; sourceTree = "<group>"; };
+		CE7CC239264AE99E00661461 /* SEEmployeeListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEEmployeeListTableViewCell.xib; sourceTree = "<group>"; };
+		CE7CC23C264AEC6E00661461 /* SEExpandEmployeeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEExpandEmployeeListTableViewCell.swift; sourceTree = "<group>"; };
+		CE7CC23D264AEC6E00661461 /* SEExpandEmployeeListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEExpandEmployeeListTableViewCell.xib; sourceTree = "<group>"; };
+		CE7CC240264B03E800661461 /* SEProfileDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEProfileDetailsViewController.swift; sourceTree = "<group>"; };
+		CE7CC242264B0DC200661461 /* SETaskListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SETaskListTableViewCell.swift; sourceTree = "<group>"; };
+		CE7CC243264B0DC200661461 /* SETaskListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SETaskListTableViewCell.xib; sourceTree = "<group>"; };
+		CEAD0AF22659012A0037D878 /* SEClientDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEClientDetailsViewController.swift; sourceTree = "<group>"; };
+		CEAD0AF7265908A50037D878 /* SECompanyDetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SECompanyDetailInfo.swift; sourceTree = "<group>"; };
+		CEAD0AFC26590A000037D878 /* SECompanyInfoTaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SECompanyInfoTaskList.swift; sourceTree = "<group>"; };
+		CEF7F54C264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAddCommentsTableViewCell.swift; sourceTree = "<group>"; };
+		CEF7F54D264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEAddCommentsTableViewCell.xib; sourceTree = "<group>"; };
+		CEF7F558264DB4C400E3EDF3 /* CompanyBaseList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyBaseList.swift; sourceTree = "<group>"; };
+		CEF7F55A264DB91B00E3EDF3 /* TemplateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateList.swift; sourceTree = "<group>"; };
+		CEF7F55C264DBC7700E3EDF3 /* TeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamList.swift; sourceTree = "<group>"; };
 		DE9F8CA19C1D3E92D51EE850 /* Pods-SeaaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaaTests.debug.xcconfig"; path = "Target Support Files/Pods-SeaaTests/Pods-SeaaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F022910BCCC210067F6337B8 /* Pods_Seaa_SeaaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seaa_SeaaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6309917457B8C43D5FC0F0D /* Pods-Seaa-SeaaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seaa-SeaaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Seaa-SeaaUITests/Pods-Seaa-SeaaUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -466,6 +532,12 @@
 		CE076DE525DD53AB001B6392 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				CE39B7C42651081500CC41FB /* FirmEmployeeList.swift */,
+				CE54DBEB2652A53200FB69C1 /* SEFirmEmployeeActiviesDetails.swift */,
+				CEF7F558264DB4C400E3EDF3 /* CompanyBaseList.swift */,
+				CE2055B1265170D900E051E3 /* SEFirmAllTask.swift */,
+				CEF7F55A264DB91B00E3EDF3 /* TemplateList.swift */,
+				CEF7F55C264DBC7700E3EDF3 /* TeamList.swift */,
 				CE076DE625DD53AB001B6392 /* Session.swift */,
 				CE076DE725DD53AB001B6392 /* HttpMacro.swift */,
 				CE076DE825DD53AB001B6392 /* AppComponents.swift */,
@@ -474,7 +546,15 @@
 				CE076DEB25DD53AB001B6392 /* AppColor.swift */,
 				CE076DEC25DD53AB001B6392 /* Helper.swift */,
 				CE076DED25DD53AB001B6392 /* HttpManager.swift */,
+				CE2055B32651727A00E051E3 /* SEFirmTaskDetails.swift */,
+				CE2055B52651765E00E051E3 /* SEFirmTemplateList.swift */,
+				CE2055B72651884200E051E3 /* SEFirmSubActivities.swift */,
+				CE54DBEF2652AB9F00FB69C1 /* SEFirmEmployeeActiveDetails.swift */,
+				CEAD0AF7265908A50037D878 /* SECompanyDetailInfo.swift */,
+				CEAD0AFC26590A000037D878 /* SECompanyInfoTaskList.swift */,
 				56BB845625E5638D00F17778 /* Chart */,
+				CE54DBED2652A94700FB69C1 /* SEFirmEmployeeDetails.swift */,
+				CE54DBF12652AD1B00FB69C1 /* SEFirmEmployeeActiveTaskList.swift */,
 			);
 			path = Helper;
 			sourceTree = SOURCE_ROOT;
@@ -483,6 +563,13 @@
 			isa = PBXGroup;
 			children = (
 				CE076DFC25DD58BF001B6392 /* SELayerViewController.swift */,
+				CE5E7252264C379300C9DF9C /* SETaskDetailsViewController.swift */,
+				CE5E7254264C483A00C9DF9C /* SEInnerTaskDetailsViewController.swift */,
+				CE7CC242264B0DC200661461 /* SETaskListTableViewCell.swift */,
+				CE7CC243264B0DC200661461 /* SETaskListTableViewCell.xib */,
+				CE5E7256264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.swift */,
+				CE5E7257264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.xib */,
+				CE39B7C22651006500CC41FB /* SEFilterViewController.swift */,
 			);
 			path = Layer;
 			sourceTree = SOURCE_ROOT;
@@ -491,6 +578,7 @@
 			isa = PBXGroup;
 			children = (
 				CE076E0225DD596E001B6392 /* SEFolderViewController.swift */,
+				CEAD0AF22659012A0037D878 /* SEClientDetailsViewController.swift */,
 			);
 			path = Folder;
 			sourceTree = SOURCE_ROOT;
@@ -499,6 +587,11 @@
 			isa = PBXGroup;
 			children = (
 				CE076E0025DD5935001B6392 /* SEProfileViewController.swift */,
+				CE7CC240264B03E800661461 /* SEProfileDetailsViewController.swift */,
+				CE7CC238264AE99E00661461 /* SEEmployeeListTableViewCell.swift */,
+				CE7CC239264AE99E00661461 /* SEEmployeeListTableViewCell.xib */,
+				CE7CC23C264AEC6E00661461 /* SEExpandEmployeeListTableViewCell.swift */,
+				CE7CC23D264AEC6E00661461 /* SEExpandEmployeeListTableViewCell.xib */,
 			);
 			path = Profile;
 			sourceTree = SOURCE_ROOT;
@@ -511,6 +604,12 @@
 				CE4486F425E6B30000AFBA83 /* SETitleAddEventTableViewCell.xib */,
 				CE4486EF25E6A51300AFBA83 /* SEAddEventTableViewCell.swift */,
 				CE4486F025E6A51300AFBA83 /* SEAddEventTableViewCell.xib */,
+				CE7CC234264AC70500661461 /* SEAddSelectionTableViewCell.swift */,
+				CE7CC235264AC70500661461 /* SEAddSelectionTableViewCell.xib */,
+				CEF7F54C264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.swift */,
+				CEF7F54D264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.xib */,
+				CE255015264FA35700B58371 /* SEAddCommentsButtonTableViewCell.swift */,
+				CE255016264FA35700B58371 /* SEAddCommentsButtonTableViewCell.xib */,
 			);
 			name = AddEvent;
 			path = Seaa/AddEvent;
@@ -657,6 +756,7 @@
 				CE2F7F3425E3FB000080C16F /* PoppinsRegular.ttf in Resources */,
 				56C52F6325E69E9D002F59FE /* RecentActivitiesCell.xib in Resources */,
 				CE076DE225DD5380001B6392 /* OpenSans-BoldItalic.ttf in Resources */,
+				CEF7F54F264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.xib in Resources */,
 				CE076DC525DD5380001B6392 /* Montserrat-LightItalic.ttf in Resources */,
 				CE076DC825DD5380001B6392 /* Montserrat-BoldItalic.ttf in Resources */,
 				CE076DCF25DD5380001B6392 /* Montserrat-MediumItalic.ttf in Resources */,
@@ -664,8 +764,10 @@
 				CE076DDD25DD5380001B6392 /* SF-Pro-Text-Regular.otf in Resources */,
 				CE076DDE25DD5380001B6392 /* SF-Pro-Text-Bold.otf in Resources */,
 				CE076DD025DD5380001B6392 /* OpenSans-Italic.ttf in Resources */,
+				CE7CC23F264AEC6E00661461 /* SEExpandEmployeeListTableViewCell.xib in Resources */,
 				CE076D7A25DD22F6001B6392 /* LaunchScreen.storyboard in Resources */,
 				CE076DD125DD5380001B6392 /* Montserrat-BlackItalic.ttf in Resources */,
+				CE5E7259264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.xib in Resources */,
 				CE076DD325DD5380001B6392 /* Montserrat-SemiBold.ttf in Resources */,
 				CE076DDF25DD5380001B6392 /* SF-Pro-Text-Semibold.otf in Resources */,
 				CE076DE025DD5380001B6392 /* SF-Pro-Text-Medium.otf in Resources */,
@@ -677,6 +779,8 @@
 				CE076DD825DD5380001B6392 /* Montserrat-Black.ttf in Resources */,
 				CE076DC925DD5380001B6392 /* Montserrat-Light.ttf in Resources */,
 				CE076DDA25DD5380001B6392 /* Montserrat-Regular.ttf in Resources */,
+				CE7CC23B264AE99E00661461 /* SEEmployeeListTableViewCell.xib in Resources */,
+				CE7CC245264B0DC200661461 /* SETaskListTableViewCell.xib in Resources */,
 				CE076DCA25DD5380001B6392 /* Montserrat-ThinItalic.ttf in Resources */,
 				CE076DCD25DD5380001B6392 /* OpenSans-Light.ttf in Resources */,
 				CE4486F625E6B30000AFBA83 /* SETitleAddEventTableViewCell.xib in Resources */,
@@ -689,6 +793,7 @@
 				CE076DD425DD5380001B6392 /* OpenSans-LightItalic.ttf in Resources */,
 				CE076D7225DD22F3001B6392 /* Main.storyboard in Resources */,
 				CE4486F225E6A51300AFBA83 /* SEAddEventTableViewCell.xib in Resources */,
+				CE255018264FA35700B58371 /* SEAddCommentsButtonTableViewCell.xib in Resources */,
 				CE076DD525DD5380001B6392 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 				CE076DD225DD5380001B6392 /* OpenSans-ExtraBold.ttf in Resources */,
 				CE076DE425DD5380001B6392 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
@@ -699,6 +804,7 @@
 				56BB847225E5641C00F17778 /* DashboardTableHeader.xib in Resources */,
 				CE2F7F3725E3FB000080C16F /* PoppinsLight.ttf in Resources */,
 				CE076DD625DD5380001B6392 /* Montserrat-ExtraBold.ttf in Resources */,
+				CE7CC237264AC70600661461 /* SEAddSelectionTableViewCell.xib in Resources */,
 				CE076DCB25DD5380001B6392 /* Montserrat-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -837,14 +943,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF7F55D264DBC7700E3EDF3 /* TeamList.swift in Sources */,
+				CE5E7253264C379300C9DF9C /* SETaskDetailsViewController.swift in Sources */,
+				CEF7F55B264DB91B00E3EDF3 /* TemplateList.swift in Sources */,
+				CE54DBF02652AB9F00FB69C1 /* SEFirmEmployeeActiveDetails.swift in Sources */,
 				CE076E0E25DD8570001B6392 /* SEChildBaseViewController.swift in Sources */,
+				CE7CC23A264AE99E00661461 /* SEEmployeeListTableViewCell.swift in Sources */,
+				CEF7F54E264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.swift in Sources */,
 				CE076DEE25DD53AB001B6392 /* Session.swift in Sources */,
+				CEAD0AF8265908A50037D878 /* SECompanyDetailInfo.swift in Sources */,
 				56BB846025E5638D00F17778 /* LambdaPieChart.swift in Sources */,
 				CE076DFF25DD58F5001B6392 /* SEAddEventViewController.swift in Sources */,
+				CE39B7C32651006500CC41FB /* SEFilterViewController.swift in Sources */,
+				CE54DBEC2652A53200FB69C1 /* SEFirmEmployeeActiviesDetails.swift in Sources */,
 				CE076DF525DD53AB001B6392 /* HttpManager.swift in Sources */,
+				CE2055B82651884200E051E3 /* SEFirmSubActivities.swift in Sources */,
 				56C52F4E25E69189002F59FE /* OverdueTaskCell.swift in Sources */,
 				CE076DF225DD53AB001B6392 /* AppConstant.swift in Sources */,
 				CE076D6F25DD22F3001B6392 /* ViewController.swift in Sources */,
+				CE2055B62651765E00E051E3 /* SEFirmTemplateList.swift in Sources */,
+				CE54DBEE2652A94700FB69C1 /* SEFirmEmployeeDetails.swift in Sources */,
+				CE5E7258264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.swift in Sources */,
 				56BB845D25E5638D00F17778 /* PieChartDataSet.swift in Sources */,
 				CE076D6B25DD22F3001B6392 /* AppDelegate.swift in Sources */,
 				56BB845A25E5638D00F17778 /* UIColor+Extension.swift in Sources */,
@@ -853,8 +972,12 @@
 				CE4486F525E6B30000AFBA83 /* SETitleAddEventTableViewCell.swift in Sources */,
 				CE076E0A25DD6F3E001B6392 /* SEBaseViewController.swift in Sources */,
 				CE076DF325DD53AB001B6392 /* AppColor.swift in Sources */,
+				CE2055B2265170D900E051E3 /* SEFirmAllTask.swift in Sources */,
+				CE5E7255264C483A00C9DF9C /* SEInnerTaskDetailsViewController.swift in Sources */,
 				56BB847525E5641C00F17778 /* DashboardChartCell.swift in Sources */,
+				CEAD0AFD26590A000037D878 /* SECompanyInfoTaskList.swift in Sources */,
 				CE076E0325DD596E001B6392 /* SEFolderViewController.swift in Sources */,
+				CEF7F559264DB4C400E3EDF3 /* CompanyBaseList.swift in Sources */,
 				56BB847825E5641C00F17778 /* DateFilterCell.swift in Sources */,
 				CE076DEF25DD53AB001B6392 /* HttpMacro.swift in Sources */,
 				CE076DF025DD53AB001B6392 /* AppComponents.swift in Sources */,
@@ -862,12 +985,21 @@
 				CE2F7F4025E406B00080C16F /* SELoginViewController.swift in Sources */,
 				CE076DA125DD368C001B6392 /* DashBoardViewController.swift in Sources */,
 				CE076E0C25DD7D5E001B6392 /* DasBoardDetailsViewController.swift in Sources */,
+				CE7CC236264AC70600661461 /* SEAddSelectionTableViewCell.swift in Sources */,
+				CE7CC23E264AEC6E00661461 /* SEExpandEmployeeListTableViewCell.swift in Sources */,
 				56C52F6025E69E9D002F59FE /* RecentActivitiesCell.swift in Sources */,
+				CE7CC241264B03E800661461 /* SEProfileDetailsViewController.swift in Sources */,
+				CEAD0AF32659012A0037D878 /* SEClientDetailsViewController.swift in Sources */,
+				CE2055B42651727A00E051E3 /* SEFirmTaskDetails.swift in Sources */,
 				CE076D9E25DD2BA6001B6392 /* SETabbarViewController.swift in Sources */,
+				CE39B7C52651081500CC41FB /* FirmEmployeeList.swift in Sources */,
 				56BB846F25E5641C00F17778 /* DashboardTableHeader.swift in Sources */,
 				CE2F7F3E25E4060D0080C16F /* SEFirmLoginViewController.swift in Sources */,
 				CE076DF425DD53AB001B6392 /* Helper.swift in Sources */,
 				CE076DFD25DD58BF001B6392 /* SELayerViewController.swift in Sources */,
+				CE255017264FA35700B58371 /* SEAddCommentsButtonTableViewCell.swift in Sources */,
+				CE54DBF22652AD1B00FB69C1 /* SEFirmEmployeeActiveTaskList.swift in Sources */,
+				CE7CC244264B0DC200661461 /* SETaskListTableViewCell.swift in Sources */,
 				CE076DF125DD53AB001B6392 /* Reachability.swift in Sources */,
 				CE076E0125DD5935001B6392 /* SEProfileViewController.swift in Sources */,
 				CE354C8C25DE9AF60040E9DE /* SEAlertViewController.swift in Sources */,
@@ -1064,9 +1196,9 @@
 			baseConfigurationReference = 18E0E150B873D1EF05B710A7 /* Pods-Seaa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = GB7REGLYS7;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WJ6574T8M;
 				INFOPLIST_FILE = Seaa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1075,7 +1207,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CogInfo.Seaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Seaa;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1086,9 +1218,9 @@
 			baseConfigurationReference = 486D0EC303676A78518A3066 /* Pods-Seaa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = GB7REGLYS7;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WJ6574T8M;
 				INFOPLIST_FILE = Seaa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1097,7 +1229,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CogInfo.Seaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Seaa;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -252,6 +252,19 @@ public class Session: NSObject {
     func getIsDeviceTouchID() -> Bool {
         return self.userDefaults.bool(forKey: "isDeviceTouchID")
     }
+    
+    func setfirm_keyToken (_ value: String) {
+        
+        self.userDefaults.set(value, forKey: "firm_key")
+        self.saveValue()
+    }
+    
+    func getfirm_keyToken ()-> String {
+        let value: String? = self.userDefaults.object(forKey: "firm_key") as? String
+        return value ?? ""
+    }
+    
+    
 }
 
 
