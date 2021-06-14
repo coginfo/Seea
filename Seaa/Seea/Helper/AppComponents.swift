@@ -293,6 +293,23 @@ public class BtnGreen: UIButton {
     }
 }
 
+public class ProfileImageView: UIImageView {
+    
+    override init(frame: CGRect){
+        super.init(frame: frame)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        commonSetup()
+    }
+    
+    private func commonSetup() {
+        self.backgroundColor = UIColor.clear
+        self.layer.cornerRadius = self.frame.width / 2.0
+    }
+}
+
 class PickerButton: UIButton {
 
     var myView: UIView? = UIView()

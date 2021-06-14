@@ -129,12 +129,36 @@ extension SEProfileDetailsViewController {
     }
 }
 
-extension SEProfileDetailsViewController {
+extension SEProfileDetailsViewController:MenuSelectionInfoVCDelegate {
+    
+    func selectedMenu(menu: Int) {
+        switch menu {
+        case 0:
+            self.tabBarController?.selectedIndex = 0
+        case 1:
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let initial = storyboard.instantiateViewController(withIdentifier: "RecentActivityViewController") as! RecentActivityViewController
+            self.navigationController?.pushViewController(initial, animated: true)
+        case 2:
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let initial = storyboard.instantiateViewController(withIdentifier: "AttendenceViewController") as! AttendenceViewController
+            self.navigationController?.pushViewController(initial, animated: true)
+        case 3:
+            self.tabBarController?.selectedIndex = 1
+        case 4:
+            let viewController = UIStoryboard(name: MAIN_STORY_BOARD, bundle: nil).instantiateViewController(withIdentifier: "SENavigationViewController") as! SENavigationViewController
+            UIApplication.shared.windows.first?.rootViewController = viewController
+            UIApplication.shared.windows.first?.makeKeyAndVisible()
+        default:
+            break
+        }
+    }
     
     @IBAction func btnMenuTapped() {
         let storyboard = UIStoryboard(name: MAIN_STORY_BOARD, bundle: nil)
         let initial = storyboard.instantiateViewController(withIdentifier: SESlideMenuVC) as! SESlideMenuViewController
         initial.modalPresentationStyle = .overFullScreen
+        initial.delegate = self
         self.present(initial, animated: true, completion: nil)
     }
 }

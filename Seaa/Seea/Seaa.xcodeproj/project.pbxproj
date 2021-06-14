@@ -153,11 +153,15 @@
 		CEAD0AF32659012A0037D878 /* SEClientDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD0AF22659012A0037D878 /* SEClientDetailsViewController.swift */; };
 		CEAD0AF8265908A50037D878 /* SECompanyDetailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD0AF7265908A50037D878 /* SECompanyDetailInfo.swift */; };
 		CEAD0AFD26590A000037D878 /* SECompanyInfoTaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD0AFC26590A000037D878 /* SECompanyInfoTaskList.swift */; };
+		CEC9D64E26775EF300398AA9 /* RecentActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC9D64D26775EF300398AA9 /* RecentActivityViewController.swift */; };
+		CEC9D65326775F0200398AA9 /* AttendenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC9D65226775F0200398AA9 /* AttendenceViewController.swift */; };
 		CEF7F54E264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F54C264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.swift */; };
 		CEF7F54F264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF7F54D264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.xib */; };
 		CEF7F559264DB4C400E3EDF3 /* CompanyBaseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F558264DB4C400E3EDF3 /* CompanyBaseList.swift */; };
 		CEF7F55B264DB91B00E3EDF3 /* TemplateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F55A264DB91B00E3EDF3 /* TemplateList.swift */; };
 		CEF7F55D264DBC7700E3EDF3 /* TeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F55C264DBC7700E3EDF3 /* TeamList.swift */; };
+		CEFFF03D267740BA009B45D2 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFF03B267740BA009B45D2 /* SideMenuTableViewCell.swift */; };
+		CEFFF03E267740BA009B45D2 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFFF03C267740BA009B45D2 /* SideMenuTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -307,11 +311,15 @@
 		CEAD0AF22659012A0037D878 /* SEClientDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEClientDetailsViewController.swift; sourceTree = "<group>"; };
 		CEAD0AF7265908A50037D878 /* SECompanyDetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SECompanyDetailInfo.swift; sourceTree = "<group>"; };
 		CEAD0AFC26590A000037D878 /* SECompanyInfoTaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SECompanyInfoTaskList.swift; sourceTree = "<group>"; };
+		CEC9D64D26775EF300398AA9 /* RecentActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentActivityViewController.swift; sourceTree = "<group>"; };
+		CEC9D65226775F0200398AA9 /* AttendenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceViewController.swift; sourceTree = "<group>"; };
 		CEF7F54C264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEAddCommentsTableViewCell.swift; sourceTree = "<group>"; };
 		CEF7F54D264D94FA00E3EDF3 /* SEAddCommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEAddCommentsTableViewCell.xib; sourceTree = "<group>"; };
 		CEF7F558264DB4C400E3EDF3 /* CompanyBaseList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyBaseList.swift; sourceTree = "<group>"; };
 		CEF7F55A264DB91B00E3EDF3 /* TemplateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateList.swift; sourceTree = "<group>"; };
 		CEF7F55C264DBC7700E3EDF3 /* TeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamList.swift; sourceTree = "<group>"; };
+		CEFFF03B267740BA009B45D2 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		CEFFF03C267740BA009B45D2 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
 		DE9F8CA19C1D3E92D51EE850 /* Pods-SeaaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeaaTests.debug.xcconfig"; path = "Target Support Files/Pods-SeaaTests/Pods-SeaaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F022910BCCC210067F6337B8 /* Pods_Seaa_SeaaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seaa_SeaaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6309917457B8C43D5FC0F0D /* Pods-Seaa-SeaaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seaa-SeaaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Seaa-SeaaUITests/Pods-Seaa-SeaaUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -637,6 +645,10 @@
 			children = (
 				CE076E0525DD6F2E001B6392 /* NavigationBar.swift */,
 				CE076E0625DD6F2E001B6392 /* NavigationBar.xib */,
+				CEFFF03B267740BA009B45D2 /* SideMenuTableViewCell.swift */,
+				CEFFF03C267740BA009B45D2 /* SideMenuTableViewCell.xib */,
+				CEC9D64D26775EF300398AA9 /* RecentActivityViewController.swift */,
+				CEC9D65226775F0200398AA9 /* AttendenceViewController.swift */,
 			);
 			path = navigation;
 			sourceTree = "<group>";
@@ -780,6 +792,7 @@
 				CE076DC925DD5380001B6392 /* Montserrat-Light.ttf in Resources */,
 				CE076DDA25DD5380001B6392 /* Montserrat-Regular.ttf in Resources */,
 				CE7CC23B264AE99E00661461 /* SEEmployeeListTableViewCell.xib in Resources */,
+				CEFFF03E267740BA009B45D2 /* SideMenuTableViewCell.xib in Resources */,
 				CE7CC245264B0DC200661461 /* SETaskListTableViewCell.xib in Resources */,
 				CE076DCA25DD5380001B6392 /* Montserrat-ThinItalic.ttf in Resources */,
 				CE076DCD25DD5380001B6392 /* OpenSans-Light.ttf in Resources */,
@@ -961,6 +974,7 @@
 				56C52F4E25E69189002F59FE /* OverdueTaskCell.swift in Sources */,
 				CE076DF225DD53AB001B6392 /* AppConstant.swift in Sources */,
 				CE076D6F25DD22F3001B6392 /* ViewController.swift in Sources */,
+				CEC9D65326775F0200398AA9 /* AttendenceViewController.swift in Sources */,
 				CE2055B62651765E00E051E3 /* SEFirmTemplateList.swift in Sources */,
 				CE54DBEE2652A94700FB69C1 /* SEFirmEmployeeDetails.swift in Sources */,
 				CE5E7258264C4A5D00C9DF9C /* SEInnerTaskDetailsTableViewCell.swift in Sources */,
@@ -993,11 +1007,13 @@
 				CE2055B42651727A00E051E3 /* SEFirmTaskDetails.swift in Sources */,
 				CE076D9E25DD2BA6001B6392 /* SETabbarViewController.swift in Sources */,
 				CE39B7C52651081500CC41FB /* FirmEmployeeList.swift in Sources */,
+				CEFFF03D267740BA009B45D2 /* SideMenuTableViewCell.swift in Sources */,
 				56BB846F25E5641C00F17778 /* DashboardTableHeader.swift in Sources */,
 				CE2F7F3E25E4060D0080C16F /* SEFirmLoginViewController.swift in Sources */,
 				CE076DF425DD53AB001B6392 /* Helper.swift in Sources */,
 				CE076DFD25DD58BF001B6392 /* SELayerViewController.swift in Sources */,
 				CE255017264FA35700B58371 /* SEAddCommentsButtonTableViewCell.swift in Sources */,
+				CEC9D64E26775EF300398AA9 /* RecentActivityViewController.swift in Sources */,
 				CE54DBF22652AD1B00FB69C1 /* SEFirmEmployeeActiveTaskList.swift in Sources */,
 				CE7CC244264B0DC200661461 /* SETaskListTableViewCell.swift in Sources */,
 				CE076DF125DD53AB001B6392 /* Reachability.swift in Sources */,
